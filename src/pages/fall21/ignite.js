@@ -15,7 +15,7 @@ export default function Home() {
       background={["We wanted to create a website where one could go to be inspired instantly. We envision that no matter the project, whether it is an art piece, a skit, a game project, an essay, or a website idea, our randomly generated pictures, quotes, and videos will serve as inspiration for your next great masterpiece.", 
       <br/>, <br/>,
       "We built this project entirely in React and connected to a variety of APIs: YouTube, Unsplash, and Quotable."]}
-      blurb="Designed user interface for Clarifi, an app to help students with ADHD get work done by limiting distractions, rewarding students with points and levels, and providing planning tools."
+      blurb="Dynamic website that serves to provide creative inspiration."
       timeline={[
         "Our project had the following timeline:",
         <br />,
