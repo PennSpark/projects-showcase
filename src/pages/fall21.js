@@ -40,7 +40,7 @@ export default function Fall21() {
       <Grid.Column>
           <Project
             img={clarifiImg}
-            url="/fall21/"
+            url="/fall21/clarifi"
             title="Clarifi"
             isCodingProject="True"
             isDesignProject="True"
@@ -54,7 +54,7 @@ export default function Fall21() {
         <Grid.Column>
           <Project
             img={counselabImg}
-            url="/fall21/"
+            url="/fall21/counselab"
             title="Counselab"
             isCodingProject="True"
             isDesignProject="True"
@@ -68,7 +68,7 @@ export default function Fall21() {
         <Grid.Column>
           <Project
             img={bonfireImg}
-            url="/fall21/"
+            url="/fall21/bonfire"
             title="Bonfire"
             isCodingProject="False"
             isDesignProject="True"
@@ -82,7 +82,7 @@ export default function Fall21() {
         <Grid.Column>
           <Project
             img={commoncentsImg}
-            url="/fall21/"
+            url="/fall21/commoncents"
             title="Common Cents"
             isCodingProject="True"
             isDesignProject="True"

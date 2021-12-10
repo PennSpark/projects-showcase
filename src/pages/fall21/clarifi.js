@@ -10,7 +10,7 @@ export default function Home() {
       title="Clarifi"
       img={clarifiHeader}
       projectUrl=""
-      isCodingProject="True"
+      sourcecodeUrl
       people="Anna Xia, Andrew Jiang, Kevin Zhou, Chelsea Cheng"
       background={["This semester the team worked on developing the parent portal for Clarifi. Before, the parent portal was a spreadsheet which was difficult to comprehend and was not actionable for the parents. The team used Figma to create designs and used React.js to develop the front end of the parent portal. This portal includes a dashboard with statistics on their child’s working sessions and an assignments page where parents can see the students past and current assignments.", 
       <br/>, <br/>,
