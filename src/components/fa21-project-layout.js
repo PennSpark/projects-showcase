@@ -42,11 +42,11 @@ export default class ProjectLayout extends React.Component {
                 <p style={{ fontSize: "1.2rem" }}>{this.props.people}</p>
                 <br />
 
-                <h3>
-                  <a href="/fall21" style={{ color: "black" }}>
+                <p>
+                  <strong><a href="/fall21" >
                     &larr; Back to Fall 21 Projects
-                  </a>
-                  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                  </a></strong>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
                   <a
                     href={this.props.projectUrl}
                     target="_blank"
@@ -54,7 +54,7 @@ export default class ProjectLayout extends React.Component {
                   >
                     {codingLabel}
                   </a>
-                </h3>
+                </p>
               </FadeIn>
             </div>
           </div>

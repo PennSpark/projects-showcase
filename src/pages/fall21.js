@@ -49,7 +49,7 @@ export default function Fall21() {
         <Grid.Column>
           <Project
             img={penntixImg}
-            url="/fall21/"
+            url="/fall21/penntix"
             title="Penn Tix"
             isCodingProject="True"
             isDesignProject="True"
@@ -62,7 +62,7 @@ export default function Fall21() {
         <Grid.Column>
           <Project
             img={popplexImg}
-            url="/fall21/"
+            url="/fall21/popplex"
             title="Popplex"
             isCodingProject="True"
             isDesignProject="True"
