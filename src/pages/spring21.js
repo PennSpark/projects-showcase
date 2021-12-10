@@ -46,6 +46,8 @@ export default function Spring21() {
             title="Poga"
             isCodingProject="True"
             isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
             description="A yoga-practicing app with a plant friend!"
             people="Jimmy Ren, Isabel An, Janice Kim, Wendy Wu, Charles Cheng, Brandon Adiele, Tinatin Kokoshvili, Andrew Zhang"
           />
@@ -57,6 +59,8 @@ export default function Spring21() {
             title="Clarifi"
             isCodingProject="False"
             isDesignProject="True"
+            isClientProject="True"
+            isCreativeProject="False"
             description="Designed user interface for Clarifi, an app to help students with ADHD get work done by limiting distractions, rewarding students with points and levels, and providing planning tools."
             people="Elyssa Chou, Vivienne Chen, Kristine Lam"
           />
@@ -68,6 +72,8 @@ export default function Spring21() {
             title="Habitat"
             isCodingProject="True"
             isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
             description="Habitat is an iOS mobile app and a Penn-themed habit tracker."
             people="Maggie Yu, Logan Cho, Arushi Srivastava, Leon Hertzberg, Julia Deng, Xinyi Zheng"
           />
@@ -79,6 +85,8 @@ export default function Spring21() {
             title="Mystery at Museum"
             isCodingProject="False"
             isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
             description="This digital escape room is a design-only project created using Figma."
             people="Connie Lin, Elyssa Chou, Kristine Lam, Vivienne Chen"
           />
@@ -90,6 +98,8 @@ export default function Spring21() {
             title="Arthub"
             isCodingProject="True"
             isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
             description="A streamlined website where artists can upload their portfolios, order/complete commissions, and where recruiters can find and recruit talent."
             people="Norman Chen, Maggie Yu, Elaine Fan"
           />
@@ -101,6 +111,8 @@ export default function Spring21() {
             title="Mystery Music"
             isCodingProject="True"
             isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
             description="A four player game that tests how well you know your friends’ music tastes!"
             people="Linda Lu, David Zhang, Egret Jin, Lindsey Smith, Caroline Chin, Christy Qiu"
           />
@@ -112,6 +124,8 @@ export default function Spring21() {
             title="Penntitions"
             isCodingProject="True"
             isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
             description="A petition website that allows Penn students to make an impact."
             people="Janna Goliff, Ahmed Laban, Helena Zhang, Aryan Nagariya, Janice Kim"
           />
@@ -123,6 +137,8 @@ export default function Spring21() {
             title="Emojifier"
             isCodingProject="True"
             isDesignProject="False"
+            isClientProject="False"
+            isCreativeProject="True"
             description="Interactive website that uses machine learning to detect and classify emotions within an image."
             people="Grace Jiang, Jerry Qin, Aarushi Singh, Acelyn Choi, Aditya Gupta, Shelly Wu, Subin Kim"
           />

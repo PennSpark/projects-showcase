@@ -1,7 +1,11 @@
 import React from "react"
 import { Card, Icon, Image } from "semantic-ui-react"
-import LabelCoding from "./label-coding"
-import LabelDesign from "./label-design"
+import LabelCoding from "./labels/label-coding"
+import LabelDesign from "./labels/label-design"
+import LabelClient from "./labels/label-client"
+import LabelCreative from "./labels/label-creative"
+import LabelBlue from "./labels/label-blue"
+import LabelRed from "./labels/label-red"
 import FadeIn from "react-fade-in"
 
 export default class Project extends React.Component {
@@ -15,7 +19,7 @@ export default class Project extends React.Component {
     if (isCodingProject == "True") {
       codingLabel = <LabelCoding />
     } else {
-      codingLabel = <div />
+      codingLabel = <></>
     }
 
     const isDesignProject = this.props.isDesignProject
@@ -23,7 +27,39 @@ export default class Project extends React.Component {
     if (isDesignProject == "True") {
       designLabel = <LabelDesign />
     } else {
-      designLabel = <div />
+      designLabel = <></>
+    }
+
+    const isClientProject = this.props.isClientProject
+    let clientLabel
+    if (isClientProject == "True") {
+      clientLabel = <LabelClient />
+    } else {
+      clientLabel = <></>
+    }
+
+    const isCreativeProject = this.props.isCreativeProject
+    let creativeLabel
+    if (isCreativeProject == "True") {
+      creativeLabel = <LabelCreative />
+    } else {
+      creativeLabel = <></>
+    }
+
+    const isBlueProject = this.props.isBlueProject
+    let blueLabel
+    if (isBlueProject == "True") {
+      blueLabel = <LabelBlue />
+    } else {
+      blueLabel = <></>
+    }
+
+    const isRedProject = this.props.isRedProject
+    let redLabel
+    if (isRedProject == "True") {
+      redLabel = <LabelRed />
+    } else {
+      redLabel = <></>
     }
 
     return (
@@ -34,8 +70,7 @@ export default class Project extends React.Component {
             <Card.Content>
               <Card.Header>{this.props.title}</Card.Header>
               <Card.Meta>
-                {codingLabel}
-                {designLabel}
+                {codingLabel}{designLabel}{clientLabel}{creativeLabel}{blueLabel}{redLabel}
                 {/* <span className="date">Joined in 2015</span> */}
               </Card.Meta>
               <Card.Description>{this.props.description}</Card.Description>
