@@ -11,7 +11,9 @@ export default function Home() {
       img={clarifiHeader}
       demoUrl=""
       sourcecodeUrl=""
-      demoVisuals=""
+      demoVisuals={[
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/4j6ByZJF9w4"></iframe>
+      ]}
       people="Anna Xia, Andrew Jiang, Kevin Zhou, Chelsea Cheng"
       background={["This semester the team worked on developing the parent portal for Clarifi. Before, the parent portal was a spreadsheet which was difficult to comprehend and was not actionable for the parents. The team used Figma to create designs and used React.js to develop the front end of the parent portal. This portal includes a dashboard with statistics on their child’s working sessions and an assignments page where parents can see the students past and current assignments.", 
       <br/>, <br/>, <strong>Technologies Used</strong>,
