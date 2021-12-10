@@ -34,28 +34,28 @@ export default function Home() {
               href="https://www.facebook.com/pennspark"
               target="_blank"
               rel="noopener noreferrer"
-              class="fa fa-facebook"
+              className="fa fa-facebook"
             />
             &nbsp;&nbsp;
             <a
               href="https://www.instagram.com/pennspark"
               target="_blank"
               rel="noopener noreferrer"
-              class="fa fa-instagram"
+              className="fa fa-instagram"
             />
             &nbsp;&nbsp;
             <a
               href="https://www.github.com/pennspark"
               target="_blank"
               rel="noopener noreferrer"
-              class="fa fa-github"
+              className="fa fa-github"
             />
             &nbsp;&nbsp;
             <a
               href="https://medium.com/@pennspark"
               target="_blank"
               rel="noopener noreferrer"
-              class="fa fa-medium"
+              className="fa fa-medium"
             />
           </div>
         </FadeIn>

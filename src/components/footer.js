@@ -26,21 +26,21 @@ export default class Footer extends React.Component {
             href="https://www.facebook.com/pennspark"
             target="_blank"
             rel="noopener noreferrer"
-            class="fa fa-facebook"
+            className="fa fa-facebook"
           />
           &nbsp;
           <a
             href="https://www.instagram.com/pennspark"
             target="_blank"
             rel="noopener noreferrer"
-            class="fa fa-instagram"
+            className="fa fa-instagram"
           />
           &nbsp;
           <a
             href="https://www.github.com/pennspark"
             target="_blank"
             rel="noopener noreferrer"
-            class="fa fa-github"
+            className="fa fa-github"
           />
         </footer>);
   }
