@@ -3,6 +3,8 @@ import ProjectLayout from "../../components/fa21-project-layout"
 import "semantic-ui-css/semantic.min.css"
 
 import commoncentsHeader from "../../../static/img/fa21/commoncents-header.png"
+import commoncentsDemo from "../../../static/img/fa21/commoncents-demo.gif"
+
 
 export default function Home() {
   return (
@@ -11,7 +13,9 @@ export default function Home() {
       img={commoncentsHeader}
       demoUrl="https://common-cents.netlify.app/"
       sourcecodeUrl="https://github.com/PennSpark/fa21-red-commoncents"
-      demoVisuals=""
+      demoVisuals={[
+        <img src={{commoncentsDemo}} style={{width:"100%"}} />
+      ]}
       people="Acelyn Choi, Subin Kim, Andrew Li, Arush Mehrotra, Jimmy Ren, David Zhang, Ethan Zhao, Julia Deng"
       background={["We worked on building a user-facing web application for our client Common Cents, gamifying learning about student personal finance.  On the web application students can watch videos, complete quizzes, and track their attendance at Common Cents events in exchange for CC Coins.  Until this project, the bookkeeping for tracking attendance at events was done manually through Google forms without a unified platform. This resulted in several pain points and limitations on how much students could engage with the activities and track their progress in learning about financial literacy. The web application saves progress for each student automatically, allowing students to finish their tasks and keep track of them more conveniently. Our web application seeks  to improve overall student experience and increase incentive to work through these various activities.", 
       <br/>, <br/>, <strong>Technologies Used</strong>,
