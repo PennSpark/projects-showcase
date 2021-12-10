@@ -10,12 +10,15 @@ export default class ProjectLayout extends React.Component {
   }
 
   render() {
-    const isCodingProject = this.props.isCodingProject
-    let codingLabel
-    if (isCodingProject == "True") {
-      codingLabel = "Source Code"
+    const sourcecodeUrl = this.props.sourcecodeUrl
+    let sourcecodeLabel
+    let sourcecodeDivider
+    if (sourcecodeUrl == "") {
+      sourcecodeLabel = ""
+      sourcecodeDivider = ""
     } else {
-      codingLabel = "Figma"
+      sourcecodeDivider = " | "
+      sourcecodeLabel = "Source Code"
     }
 
     return (
@@ -25,37 +28,31 @@ export default class ProjectLayout extends React.Component {
         </head>
         <body style={{ margin: "0px", padding: "0px" }}>
           <div
-            style={{
-              width: "100%",
-              padding: "100px",
-              textAlign: "center",
-            backgroundImage: `url(${this.props.img})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            }}
-          >
+            style={{ width: "100%",
+                backgroundImage: `url(${this.props.img})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+            }}>
+                <div style={{ maxWidth: "920px", margin: "auto", paddingTop: "30px" }}>
+                    <p><strong><a href="/fall21" >&larr; Back to Fall 21 Projects</a></strong></p>
+                </div>
+            <div style={{ padding: "80px", paddingTop: "60px", textAlign: "center" }}>
             <div style={{ maxWidth: "920px", margin: "auto" }}>
               <FadeIn>
                 <h1 style={{ fontSize: "3rem" }}>{this.props.title}</h1>
                 <br />
-
-                <p style={{ fontSize: "1.2rem" }}>{this.props.people}</p>
+                <h3>{this.props.blurb}</h3>
+                <br />
+                <p style={{ fontSize: "1.2rem" }}><em>{this.props.people}</em></p>
                 <br />
 
                 <p>
-                  <strong><a href="/fall21" >
-                    &larr; Back to Fall 21 Projects
-                  </a></strong>
-                  &nbsp;&nbsp;|&nbsp;&nbsp;
-                  <a
-                    href={this.props.projectUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {codingLabel}
-                  </a>
+                    <a href={this.props.demoUrl} target="_blank" rel="noopener noreferrer">Demo</a>
+                    {sourcecodeDivider}
+                    <a href={this.props.sourcecodeUrl} target="_blank" rel="noopener noreferrer" >{sourcecodeLabel}</a>
                 </p>
               </FadeIn>
+            </div>
             </div>
           </div>
           <Container style={{ paddingTop: "60px" }}>

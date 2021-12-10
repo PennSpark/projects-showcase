@@ -9,7 +9,7 @@ export default function Home() {
     <ProjectLayout
       title="Ignite"
       img={igniteHeader}
-      projectUrl="https://github.com/PennSpark/fa21-blue-ignite"
+      sourcecodeUrl="https://github.com/PennSpark/fa21-blue-ignite"
       isCodingProject="True"
       people="Anna Baringer, James Ciardullo, Will Liang, Homer Wang, Rain Yan"
       background={["We wanted to create a website where one could go to be inspired instantly. We envision that no matter the project, whether it is an art piece, a skit, a game project, an essay, or a website idea, our randomly generated pictures, quotes, and videos will serve as inspiration for your next great masterpiece.", 
