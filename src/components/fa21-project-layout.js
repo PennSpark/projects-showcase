@@ -10,12 +10,15 @@ export default class ProjectLayout extends React.Component {
   }
 
   render() {
-    const isCodingProject = this.props.isCodingProject
-    let codingLabel
-    if (isCodingProject == "True") {
-      codingLabel = "Source Code"
+    const sourcecodeUrl = this.props.sourcecodeUrl
+    let sourcecodeLabel
+    let sourcecodeDivider
+    if (sourcecodeUrl == "") {
+      sourcecodeLabel = ""
+      sourcecodeDivider = ""
     } else {
-      codingLabel = "Figma"
+      sourcecodeDivider = " | "
+      sourcecodeLabel = "Source Code"
     }
 
     return (
@@ -38,22 +41,15 @@ export default class ProjectLayout extends React.Component {
               <FadeIn>
                 <h1 style={{ fontSize: "3rem" }}>{this.props.title}</h1>
                 <br />
-                <p style={{ fontSize: "1.2rem" }}>{this.props.blurb}</p>
+                <h3>{this.props.blurb}</h3>
                 <br />
                 <p style={{ fontSize: "1.2rem" }}><em>{this.props.people}</em></p>
                 <br />
 
                 <p>
-                  <a
-                    href={this.props.projectUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {codingLabel}
-                  </a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                  <a href={this.props.demoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer">Demo</a>
+                    <a href={this.props.demoUrl} target="_blank" rel="noopener noreferrer">Demo</a>
+                    {sourcecodeDivider}
+                    <a href={this.props.sourcecodeUrl} target="_blank" rel="noopener noreferrer" >{sourcecodeLabel}</a>
                 </p>
               </FadeIn>
             </div>
