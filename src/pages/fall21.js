@@ -11,6 +11,10 @@ import headerImg from "../../static/img/fa21/header.png"
 import igniteImg from "../../static/img/fa21/ignite.png"
 import penntixImg from "../../static/img/fa21/penntix.png"
 import popplexImg from "../../static/img/fa21/popplex.png"
+import clarifiImg from "../../static/img/fa21/clarifi.png"
+import counselabImg from "../../static/img/fa21/counselab.png"
+import bonfireImg from "../../static/img/fa21/bonfire.png"
+import commoncentsImg from "../../static/img/fa21/common-cents.png"
 
 export default function Fall21() {
   return (
@@ -33,19 +37,76 @@ export default function Fall21() {
       </div>
 
       <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>
+      <Grid.Column>
+          <Project
+            img={clarifiImg}
+            url="/fall21/"
+            title="Clarifi"
+            isCodingProject="True"
+            isDesignProject="True"
+            isClientProject="True"
+            isCreativeProject="False"
+            description="Clarifi is a product to help the 4.1 million teen students with ADHD to plan and complete their work."
+            people="Anna Xia, Andrew Jiang, Kevin Zhou, Chelsea Cheng"
+          />
+        </Grid.Column>
+
         <Grid.Column>
           <Project
-            img={igniteImg}
-            url="/fall21/ignite"
-            title="Ignite"
+            img={counselabImg}
+            url="/fall21/"
+            title="Counselab"
+            isCodingProject="True"
+            isDesignProject="True"
+            isClientProject="True"
+            isCreativeProject="False"
+            description="A Marketplace for 1:1 Advising Sessions"
+            people="Marcel Kida, Alexander Zheng, Rachel Pierce"
+          />
+        </Grid.Column>
+
+        <Grid.Column>
+          <Project
+            img={bonfireImg}
+            url="/fall21/"
+            title="Bonfire"
+            isCodingProject="False"
+            isDesignProject="True"
+            isClientProject="True"
+            isCreativeProject="False"
+            description="Gather around. Hangout offline."
+            people="Janice Kim, Isabel An, Joyce He"
+          />
+        </Grid.Column>
+
+        <Grid.Column>
+          <Project
+            img={commoncentsImg}
+            url="/fall21/"
+            title="Common Cents"
+            isCodingProject="True"
+            isDesignProject="True"
+            isClientProject="True"
+            isCreativeProject="False"
+            description="Gamified edtech platform for student personal finance."
+            people="Acelyn Choi, Subin Kim, Andrew Li, Arush Mehrotra, Jimmy Ren, David Zhang, Ethan Zhao, Julia Deng"
+          />
+        </Grid.Column>
+
+        <Grid.Column>
+          <Project
+            img={popplexImg}
+            url="/fall21/popplex"
+            title="Popplex"
             isCodingProject="True"
             isDesignProject="True"
             isClientProject="False"
             isCreativeProject="True"
-            description="Dynamic website that serves to provide creative inspiration."
-            people="Anna Baringer, James Ciardullo, Will Liang, Homer Wang, Rain Yan"
+            description="Let’s pop your class perplexion!"
+            people="Elaine Fan, Arushi Srivastava, Michelle Seiyon Lee, Paul Loh"
           />
         </Grid.Column>
+
         <Grid.Column>
           <Project
             img={penntixImg}
@@ -59,17 +120,18 @@ export default function Fall21() {
             people="Matthew Dong, Yuhan Liu, Claire Zhang, Ethan Zhao"
           />
         </Grid.Column>
+
         <Grid.Column>
           <Project
-            img={popplexImg}
-            url="/fall21/popplex"
-            title="Popplex"
+            img={igniteImg}
+            url="/fall21/ignite"
+            title="Ignite"
             isCodingProject="True"
             isDesignProject="True"
             isClientProject="False"
             isCreativeProject="True"
-            description="Let’s pop your class perplexion!"
-            people="Elaine Fan, Arushi Srivastava, Michelle Seiyon Lee, Paul Loh"
+            description="Dynamic website that serves to provide creative inspiration."
+            people="Anna Baringer, James Ciardullo, Will Liang, Homer Wang, Rain Yan"
           />
         </Grid.Column>
       </Grid>
