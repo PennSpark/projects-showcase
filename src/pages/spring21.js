@@ -1,10 +1,10 @@
+import "semantic-ui-css/semantic.min.css"
+import "../css/spring21.css"
+
 import React from "react"
 import Layout from "../components/layout"
 import Project from "../components/sp21-project"
-import Footer from "../components/footer"
-import "semantic-ui-css/semantic.min.css"
 import FadeIn from "react-fade-in"
-
 import { Grid } from "semantic-ui-react"
 
 import headerImg from "../../static/img/sp21/header.png"
@@ -33,8 +33,8 @@ export default function Spring21() {
       >
         <FadeIn>
           <h3 style={{ fontSize: "1.6rem" }}>Penn Creative Labs</h3>
-          <h1 style={{ fontSize: "3rem" }}>Spring 2021 Showcase</h1>
-          <a href="/">&larr; Back Home</a>
+          <h1 style={{ fontSize: "3rem" }}>Spring 2021 Showcase</h1><br/>
+          <p id="sp21-back-button"><a href="/">&larr; Back Home</a></p>
         </FadeIn>
       </div>
 
@@ -128,7 +128,6 @@ export default function Spring21() {
           />
         </Grid.Column>
       </Grid>
-      <Footer></Footer>
     </Layout>
   )
 }

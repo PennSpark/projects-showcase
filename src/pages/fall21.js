@@ -1,9 +1,11 @@
+import "semantic-ui-css/semantic.min.css"
+import "../css/fall21.css"
+
 import React from "react"
 import Layout from "../components/layout"
-import "semantic-ui-css/semantic.min.css"
 import FadeIn from "react-fade-in"
 
-import headerImg from "../../static/img/header.png"
+import headerImg from "../../static/img/fa21/header.png"
 
 export default function Fall21() {
   return (
@@ -20,7 +22,8 @@ export default function Fall21() {
       >
         <FadeIn>
           <h3 style={{ fontSize: "1.6rem" }}>Penn Spark</h3>
-          <h1 style={{ fontSize: "3rem" }}>Fall 2021 Showcase</h1>
+          <h1 style={{ fontSize: "3rem" }}>Fall 2021 Showcase</h1><br/>
+          <p id="fa21-back-button"><a href="/">&larr; Back Home</a></p>
         </FadeIn>
       </div>
     </Layout>

@@ -5,3 +5,7 @@
 .homeSocialLinks a:hover {
     color: #7293D7;
 }
+
+.semesterShowcase {
+    border-radius: 10px;
+}
