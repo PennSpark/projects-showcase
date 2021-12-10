@@ -9,8 +9,9 @@ export default function Home() {
     <ProjectLayout
       title="Counselab"
       img={counselabHeader}
-      projectUrl=""
+      demoUrl="https://counselab.com/"
       sourcecodeUrl=""
+      demoVisuals=""
       people="Marcel Kida, Alexander Zheng, Rachel Pierce"
       background={["We worked on building a user-facing web application for our client Counselab which is a platform that allows users to offer and seek 1:1 advising sessions on any topic they want. On the website, we created a few static pages as well as a user profile page. The static pages include landing page, about page, team page, and contact form. The user profile page has a component that displays all the user information such as education and social media links as well as a component that displays a calendar that shows when the user is available. Rachel designed the website and its components using Figma. Marcel and Alex coded the front end application based on the UI mockups.", 
       <br/>, <br/>,

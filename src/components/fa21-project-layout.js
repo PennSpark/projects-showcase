@@ -10,6 +10,15 @@ export default class ProjectLayout extends React.Component {
   }
 
   render() {
+    const demoUrl = this.props.demoUrl
+    let demoUrlLabel
+    if (demoUrl == "") {
+        demoUrlLabel = ""
+    } else {
+        demoUrlLabel = "Demo"
+    }
+
+
     const sourcecodeUrl = this.props.sourcecodeUrl
     let sourcecodeLabel
     let sourcecodeDivider
@@ -19,6 +28,20 @@ export default class ProjectLayout extends React.Component {
     } else {
       sourcecodeDivider = " | "
       sourcecodeLabel = "Source Code"
+    }
+
+    const demoVisuals = this.props.demoVisuals 
+    let demoVisualsContent 
+    if (demoVisuals == "") {
+        demoVisualsContent = <></>
+    } else {
+        demoVisualsContent = <>
+            <h1>Demo</h1>
+            <br/>
+            {this.props.demoVisuals}
+            <br/>
+            <br/>
+        </>
     }
 
     return (
@@ -47,7 +70,7 @@ export default class ProjectLayout extends React.Component {
                 <br />
 
                 <p>
-                    <strong><a href={this.props.demoUrl} target="_blank" rel="noopener noreferrer">Demo</a></strong>
+                    <strong><a href={this.props.demoUrl} target="_blank" rel="noopener noreferrer">{demoUrlLabel}</a></strong>
                     {sourcecodeDivider}
                     <a href={this.props.sourcecodeUrl} target="_blank" rel="noopener noreferrer" >{sourcecodeLabel}</a>
                 </p>
@@ -70,11 +93,7 @@ export default class ProjectLayout extends React.Component {
                 <br />
                 <br />
 
-                <h1>Demo</h1>
-                <br/>
-                {this.props.demoVisuals}
-                <br/>
-                <br/>
+                {demoVisualsContent}
 
                 <h1>Challenges</h1>
                 <br />

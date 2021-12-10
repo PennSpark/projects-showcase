@@ -9,7 +9,11 @@ export default function Home() {
     <ProjectLayout
       title="Ignite"
       img={igniteHeader}
+      demoUrl=""
       sourcecodeUrl="https://github.com/PennSpark/fa21-blue-ignite"
+      demoVisuals={[
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>
+      ]}
       people="Anna Baringer, James Ciardullo, Will Liang, Homer Wang, Rain Yan"
       background={["We wanted to create a website where one could go to be inspired instantly. We envision that no matter the project, whether it is an art piece, a skit, a game project, an essay, or a website idea, our randomly generated pictures, quotes, and videos will serve as inspiration for your next great masterpiece.", 
       <br/>, <br/>,
@@ -28,9 +32,6 @@ export default function Home() {
         <br/>,
         <strong>Week 3</strong>,
         ": Connect backend content to the frontend",
-      ]}
-      demoVisuals={[
-        <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>
       ]}
       challenges={[
           <ul>

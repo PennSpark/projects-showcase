@@ -9,8 +9,9 @@ export default function Home() {
     <ProjectLayout
       title="Bonfire"
       img={bonfireHeader}
-      projectUrl=""
+      demoUrl="https://www.figma.com/proto/evYxHpC4X42ipa8Y0HUVnP/%5BInternal%5D-Bonfire?node-id=309%3A141&scaling=scale-down&page-id=308%3A15&starting-point-node-id=309%3A141&show-proto-sidebar=1"
       sourcecodeUrl=""
+      demoVisuals=""
       people="Janice Kim, Isabel An, Joyce He"
       background={["Bonfire is an iOS app where students can discover places, events, and special experiences to hangout on campus and/or in their city. With Bonfire, users get to see what everyone around them is up to and can spontaneously find something interesting to do and people to do it. While social media apps like Instagram or Facebook show you what people have been up to after the event has happened, Bonfire shows users what people are going to be up to.", 
       <br/>, <br/>,
