@@ -9,7 +9,7 @@ export default function Home() {
     <ProjectLayout
       title="Penn Tix"
       img={penntixHeader}
-      projectUrl="https://github.com/PennSpark/fa21-blue-penntix"
+      projectUrl="https://github.com/PennSpark/fa21-blue-penn-tix"
       isCodingProject="True"
       people="Matthew Dong, Yuhan Liu, Claire Zhang, Ethan Zhao"
       background={["PennTix is a web application that makes it easy to resell and buy tickets for Penn events and events/concerts in Philly. Currently, the marketplace for these transactions is decentralized, aka various GroupMe chats, which is problematic for both sellers and buyers. Our website makes it easy to buy tickets as they just select an event and see available tickets. To sell tickets, you can select/create an event and list your tickets. PennTix operates like Craigslist, by not actually conducting the transaction, just facilitating the connection between the buyer and the seller. This decreases our liability while still providing a service to the Penn community.", 
