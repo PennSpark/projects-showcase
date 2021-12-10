@@ -15,9 +15,9 @@ export default function Home() {
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>
       ]}
       people="Matthew Dong, Yuhan Liu, Claire Zhang, Ethan Zhao"
-      background={["Our project aims to facilitate communication between professors and students  in large class sizes by allowing for students to channel their confusion with the simple click of a button. On popplex, students inform the instructor that they are confused and how they want the instructor to address it (e.g. “repeat”, “rephrase”, “elaborate”, “provide an example”).  After class, students participate in a short survey that allows them to review what they learned. In turn, the lecturers receive both live and specific aggregate feedback that allows them to continually improve on their lecture.", 
-      <br/>, <br/>,
-      "Technologies Used: Python, Django, React, HTML, CSS"]}
+      background={["PennTix is a web application that makes it easy to resell and buy tickets for Penn events and events/concerts in Philly. Currently, the marketplace for these transactions is decentralized, aka various GroupMe chats, which is problematic for both sellers and buyers. Our website makes it easy to buy tickets as they just select an event and see available tickets. To sell tickets, you can select/create an event and list your tickets. PennTix operates like Craigslist, by not actually conducting the transaction, just facilitating the connection between the buyer and the seller. This decreases our liability while still providing a service to the Penn community.", 
+      <br/>, <br/>, <strong>Technologies Used</strong>,
+      ": Python, Django, React, HTML, CSS"]}
       blurb="Penn's premiere ticket reselling platform."
       timeline={[
         "Our project had the following timeline:",

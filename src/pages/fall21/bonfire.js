@@ -14,8 +14,8 @@ export default function Home() {
       demoVisuals=""
       people="Janice Kim, Isabel An, Joyce He"
       background={["Bonfire is an iOS app where students can discover places, events, and special experiences to hangout on campus and/or in their city. With Bonfire, users get to see what everyone around them is up to and can spontaneously find something interesting to do and people to do it. While social media apps like Instagram or Facebook show you what people have been up to after the event has happened, Bonfire shows users what people are going to be up to.", 
-      <br/>, <br/>,
-      "Technologies Used: Figma, Illustrator"]}
+      <br/>, <br/>, <strong>Technologies Used</strong>,
+      ": Figma, Illustrator"]}
       blurb="Gather around. Hangout offline."
       timeline={[
         "Our project had the following timeline:",

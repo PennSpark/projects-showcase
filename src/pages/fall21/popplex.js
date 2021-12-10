@@ -16,8 +16,8 @@ export default function Home() {
       ]}
       people="Elaine Fan, Arushi Srivastava, Michelle Seiyon Lee, Paul Loh"
       background={["Our project aims to facilitate communication between professors and students  in large class sizes by allowing for students to channel their confusion with the simple click of a button. On popplex, students inform the instructor that they are confused and how they want the instructor to address it (e.g. “repeat”, “rephrase”, “elaborate”, “provide an example”).  After class, students participate in a short survey that allows them to review what they learned. In turn, the lecturers receive both live and specific aggregate feedback that allows them to continually improve on their lecture.", 
-      <br/>, <br/>,
-      "Technologies used: Django and CSS"]}
+      <br/>, <br/>, <strong>Technologies Used</strong>,
+      ": Django, HTML, and CSS"]}
       blurb="Let’s pop your class perplexion!"
       timeline={[
         "Our project had the following timeline:",

@@ -14,8 +14,8 @@ export default function Home() {
       demoVisuals=""
       people="Anna Xia, Andrew Jiang, Kevin Zhou, Chelsea Cheng"
       background={["This semester the team worked on developing the parent portal for Clarifi. Before, the parent portal was a spreadsheet which was difficult to comprehend and was not actionable for the parents. The team used Figma to create designs and used React.js to develop the front end of the parent portal. This portal includes a dashboard with statistics on their child’s working sessions and an assignments page where parents can see the students past and current assignments.", 
-      <br/>, <br/>,
-      "Technologies used: "]}
+      <br/>, <br/>, <strong>Technologies Used</strong>,
+      ": ?"]}
       blurb="Clarifi is a product to help the 4.1 million teen students with ADHD to plan and complete their work."
       timeline={[
         "Our project had the following timeline:",
