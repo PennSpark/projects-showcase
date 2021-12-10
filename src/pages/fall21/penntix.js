@@ -46,7 +46,7 @@ export default function Home() {
       takeaways={[
         <ul>
           <li><strong>Matthew D</strong>: My biggest takeaway from this project is the importance of planning model schema before beginning development. In planning the schema for the database objects, I saved a lot of effort later down the road as I only had to make minimal changes to the fields. </li>
-          <li><strong>Yuhan L</strong>: PennTix is my first full-stack development project! I had very limited prior experience in the technologies we used, from Git to React to Django, so working on Penntix definitely allowed me to get a sense of the biger picture in terms of how everything comes together.</li>
+          <li><strong>Yuhan L</strong>: PennTix is my first full-stack development project! I had very limited prior experience in the technologies we used, from Git to React to Django, so working on PennTix definitely allowed me to get a sense of the biger picture in terms of how everything comes together.</li>
           <li><strong>Claire Z</strong>: Some of my takeaways from this project are how important it is to have a framework for how the website is going to look in terms of which views lead to where as the project became a lot easier once we figured this out. This project also taught me a lot about the MVC framework and how each of the components are connected to each other. I am also happy that I finally learned how to use git :D</li>
           <li><strong>Ethan Z</strong>: This was my first time using Django/HTML/CSS in a context that wasn’t just a personal project. My biggest takeaway was just learning full-stack development, as it’s knowledge that I’ve retained and can apply in the future.</li>
         </ul>,
