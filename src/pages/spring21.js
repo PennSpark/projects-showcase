@@ -3,7 +3,7 @@ import "../css/spring21.css"
 
 import React from "react"
 import Layout from "../components/layout"
-import Project from "../components/sp21-project"
+import Project from "../components/project-cover"
 import FadeIn from "react-fade-in"
 import { Grid } from "semantic-ui-react"
 
@@ -34,7 +34,7 @@ export default function Spring21() {
         <FadeIn>
           <h3 style={{ fontSize: "1.6rem" }}>Penn Creative Labs</h3>
           <h1 style={{ fontSize: "3rem" }}>Spring 2021 Showcase</h1><br/>
-          <p id="sp21-back-button"><a href="/">&larr; Back Home</a></p>
+          <p id="sp21-back-button"><a href="/"><strong>&larr; Back Home</strong></a>&nbsp;|&nbsp;<a href="https://www.facebook.com/events/124758169604630/" target="_blank">Facebook Event</a></p>
         </FadeIn>
       </div>
 

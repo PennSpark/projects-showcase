@@ -18,8 +18,8 @@ export default function Home() {
       <div
         style={{
           width: "100%",
-          paddingTop: "140px",
-          paddingBottom: "140px",
+          paddingTop: "136px",
+          paddingBottom: "136px",
           textAlign: "center",
           backgroundImage: `url(${headerImg})`,
           backgroundSize: "cover",
@@ -64,26 +64,30 @@ export default function Home() {
         </FadeIn>
       </div>
 
-      <Grid container columns={3} style={{ margin: "auto", marginTop: "30px", paddingBottom: "60px"}}>
+      <Grid container columns={2} style={{ margin: "auto", marginTop: "30px", paddingBottom: "60px"}}>
         <Grid.Column>
+          <FadeIn>
           <a href="fall21">
-            <Card>
+            <Card style={{width: "100%"}}>
               <Image src={fa21Img} wrapped ui={false} />
-              <Card.Content>
-                <Card.Header>Fall 2021 Projects</Card.Header>
+              <Card.Content style={{textAlign:"center"}}>
+                <Card.Header><h2>Fall 2021 Projects</h2></Card.Header>
               </Card.Content>
             </Card>
           </a>
+          </FadeIn>
         </Grid.Column>
         <Grid.Column>
+          <FadeIn>
           <a href="spring21">
-            <Card>
+            <Card style={{width: "100%"}}>
               <Image src={sp21Img} wrapped ui={false} />
-              <Card.Content>
-                <Card.Header>Spring 2021 Projects</Card.Header>
+              <Card.Content style={{textAlign:"center"}}>
+                <Card.Header><h2>Spring 2021 Projects</h2></Card.Header>
               </Card.Content>
             </Card>
           </a>
+          </FadeIn>
         </Grid.Column>
       </Grid>
     </Layout>

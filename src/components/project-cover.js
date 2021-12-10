@@ -29,7 +29,7 @@ export default class Project extends React.Component {
     return (
       <FadeIn>
         <a href={this.props.url}>
-          <Card>
+          <Card style={{width: "100%"}}>
             <Image src={this.props.img} wrapped ui={false} />
             <Card.Content>
               <Card.Header>{this.props.title}</Card.Header>
