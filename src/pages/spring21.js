@@ -42,7 +42,7 @@ export default function Spring21() {
         <Grid.Column>
           <Project
             img={pogaImg}
-            url="spring21/poga"
+            url="/spring21/poga"
             title="Poga"
             isCodingProject="True"
             isDesignProject="True"
@@ -53,7 +53,7 @@ export default function Spring21() {
         <Grid.Column>
           <Project
             img={clarifiImg}
-            url="spring21/clarifi"
+            url="/spring21/clarifi"
             title="Clarifi"
             isCodingProject="False"
             isDesignProject="True"
@@ -64,7 +64,7 @@ export default function Spring21() {
         <Grid.Column>
           <Project
             img={habitatImg}
-            url="spring21/habitat"
+            url="/spring21/habitat"
             title="Habitat"
             isCodingProject="True"
             isDesignProject="True"
@@ -75,7 +75,7 @@ export default function Spring21() {
         <Grid.Column>
           <Project
             img={mysteryMuseumImg}
-            url="spring21/mystery-at-museum"
+            url="/spring21/mystery-at-museum"
             title="Mystery at Museum"
             isCodingProject="False"
             isDesignProject="True"
@@ -86,7 +86,7 @@ export default function Spring21() {
         <Grid.Column>
           <Project
             img={arthubImg}
-            url="spring21/arthub"
+            url="/spring21/arthub"
             title="Arthub"
             isCodingProject="True"
             isDesignProject="True"
@@ -97,7 +97,7 @@ export default function Spring21() {
         <Grid.Column>
           <Project
             img={mysteryMusicImg}
-            url="spring21/mystery-music"
+            url="/spring21/mystery-music"
             title="Mystery Music"
             isCodingProject="True"
             isDesignProject="True"
@@ -108,7 +108,7 @@ export default function Spring21() {
         <Grid.Column>
           <Project
             img={penntitionsImg}
-            url="spring21/penntitions"
+            url="/spring21/penntitions"
             title="Penntitions"
             isCodingProject="True"
             isDesignProject="True"
@@ -119,7 +119,7 @@ export default function Spring21() {
         <Grid.Column>
           <Project
             img={emojifierImg}
-            url="spring21/emojifier"
+            url="/spring21/emojifier"
             title="Emojifier"
             isCodingProject="True"
             isDesignProject="False"
