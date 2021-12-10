@@ -11,10 +11,10 @@ export default function Home() {
       img={penntixHeader}
       projectUrl="https://github.com/PennSpark/fa21-blue-penntix"
       isCodingProject="True"
-      people="Anna Baringer, James Ciardullo, Will Liang, Homer Wang, Rain Yan"
-      background={["We wanted to create a website where one could go to be inspired instantly. We envision that no matter the project, whether it is an art piece, a skit, a game project, an essay, or a website idea, our randomly generated pictures, quotes, and videos will serve as inspiration for your next great masterpiece.", 
+      people="Matthew Dong, Yuhan Liu, Claire Zhang, Ethan Zhao"
+      background={["PennTix is a web application that makes it easy to resell and buy tickets for Penn events and events/concerts in Philly. Currently, the marketplace for these transactions is decentralized, aka various GroupMe chats, which is problematic for both sellers and buyers. Our website makes it easy to buy tickets as they just select an event and see available tickets. To sell tickets, you can select/create an event and list your tickets. PennTix operates like Craigslist, by not actually conducting the transaction, just facilitating the connection between the buyer and the seller. This decreases our liability while still providing a service to the Penn community.", 
       <br/>, <br/>,
-      "We built this project entirely in React and connected to a variety of APIs: YouTube, Unsplash, and Quotable."]}
+      "Technologies Used: Python, Django, React, HTML, CSS"]}
       blurb="Designed user interface for Clarifi, an app to help students with ADHD get work done by limiting distractions, rewarding students with points and levels, and providing planning tools."
       timeline={[
         "Our project had the following timeline:",
@@ -22,40 +22,38 @@ export default function Home() {
         <br />,
         
         <strong>Week 1</strong>,
-        ": Set up react folder, index.html and base layouts",
+        ": Ideate features for the web app, make wireframes, create github repository, make ticket listing functionality",
         <br/>,
         <strong>Week 2</strong>,
-        ": Search for sources of content for images, videos, and quotes. Get APIs working to get content. Complete frontend functionality",
+        ": Finalize features list, set deadlines for individual tasks, create user profiles, create listings page",
         <br/>,
         <strong>Week 3</strong>,
-        ": Connect backend content to the frontend",
+        ": Search/sort events, design logos/animations",
+        <br/>,
+        <strong>Week 4</strong>,
+        ": Test and polish site, final styling, incorporate visuals/animations",
       ]}
       challenges={[
           <ul>
-              <li>API request limits</li>
-              <li>Integrating different media pieces into the frontend</li>
-              <li>Appropriately resizing content in React components (especially for photos)</li>
+              <li>Organizing tickets and events on website</li>
+              <li>Grouping tickets for same event and displaying lowest price</li>
+              <li>Creating a custom User class to have phone number field</li>
           </ul>
       ]}
       takeaways={[
         <ul>
-          <li><strong>Matthew D</strong>: This project was a great way to get more familiar with React and experiment with calling different APIs. In hindsight, I wish that we had worked more incrementally to add each content type to the frontend, since our plan of working on those steps simultaneously meant that we had to rearrange a lot of the logic of the API callers to better fit the frontend.</li>
-          <li><strong>Yuhan L</strong>: I enjoyed working with others and experimenting with ReactJS to fully realize our project idea. Implementing the APIs, while a bit of a nuisance, taught me how everything comes together through integrating backend with frontend. Overall, it was a fun and interesting experience and, given the chance to continue with the project, I would emphasize planning ahead next time for how we would go about adding new features.</li>
-          <li><strong>Ethan Z</strong>: Working on Ignite really helped me to tie all the experiences in the frontend from HTML/CSS to ReactJS together. I also got the chance to work on the backend with the Unsplash photo API and integrating it into the frontend. One biggest lesson I learned is that I should not constrain myself to just one spectrum in webdev, as both are crucial towards bringing together a featured, exciting web app. Going forward, I will work towards becoming a fullstack developer!</li>
-          <li><strong>Claire Z</strong>: Coming up with this idea from the start to building out our frontend demo was simply one of the coolest experiences for me this semester. Being able to learn React while contributing to such a meaningful project was absolutely enriching, and I couldn’t have done it without all the help and support I’ve received from the Ignite team and the rest of Spark. One thing I’ve learned from this project is that, it’s never too late to start on something, and sometimes even the dumbest ideas could turn into things that are actually cool and useful (hopefully it’ll be). Plan early and start today!</li>
+          <li><strong>Matthew D</strong>: My biggest takeaway from this project is the importance of planning model schema before beginning development. In planning the schema for the database objects, I saved a lot of effort later down the road as I only had to make minimal changes to the fields. </li>
+          <li><strong>Yuhan L</strong>: </li>
+          <li><strong>Claire Z</strong>: Some of my takeaways from this project are how important it is to have a framework for how the website is going to look in terms of which views lead to where as the project became a lot easier once we figured this out. This project also taught me a lot about the MVC framework and how each of the components are connected to each other. I am also happy that I finally learned how to use git :D</li>
+          <li><strong>Ethan Z</strong>: This was my first time using Django/HTML/CSS in a context that wasn’t just a personal project. My biggest takeaway was just learning full-stack development, as it’s knowledge that I’ve retained and can apply in the future.</li>
         </ul>,
       ]}
       lookingForward={[
         "Looking forward, we could continue to expand our project by:",
         <ul>
-            <li>Working on UI/branding more</li>
-            <li>Work on graphic design, polish logo</li>
-            <li>Allow for dynamic resizing and better fitting for photos</li>
-            <li>Add search bar functionality</li>
-            <li>Add more content variety</li>
-            <li>Add shopping cart features</li>
-            <li>Add users + the ability to save content to look at later</li>
-            <li>Enable endless scrolling</li>
+            <li>Make site look prettier - add animations and logos </li>
+            <li>Adding calendar on main page to make events easier to see</li>
+            <li>Filter/search for events</li>
         </ul>
       ]}
     ></ProjectLayout>
