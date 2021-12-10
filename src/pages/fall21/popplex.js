@@ -11,52 +11,57 @@ export default function Home() {
       img={popplexHeader}
       projectUrl="https://github.com/PennSpark/fa21-blue-popplex"
       isCodingProject="True"
-      people="Anna Baringer, James Ciardullo, Will Liang, Homer Wang, Rain Yan"
-      background={["We wanted to create a website where one could go to be inspired instantly. We envision that no matter the project, whether it is an art piece, a skit, a game project, an essay, or a website idea, our randomly generated pictures, quotes, and videos will serve as inspiration for your next great masterpiece.", 
+      people="Elaine Fan, Arushi Srivastava, Michelle Seiyon Lee, Paul Loh"
+      background={["Our project aims to facilitate communication between professors and students  in large class sizes by allowing for students to channel their confusion with the simple click of a button. On popplex, students inform the instructor that they are confused and how they want the instructor to address it (e.g. “repeat”, “rephrase”, “elaborate”, “provide an example”).  After class, students participate in a short survey that allows them to review what they learned. In turn, the lecturers receive both live and specific aggregate feedback that allows them to continually improve on their lecture.", 
       <br/>, <br/>,
-      "We built this project entirely in React and connected to a variety of APIs: YouTube, Unsplash, and Quotable."]}
-      blurb="Designed user interface for Clarifi, an app to help students with ADHD get work done by limiting distractions, rewarding students with points and levels, and providing planning tools."
+      "Technologies used: Django and CSS"]}
+      blurb="Let’s pop your class perplexion"
       timeline={[
         "Our project had the following timeline:",
         <br />,
         <br />,
         
         <strong>Week 1</strong>,
-        ": Set up react folder, index.html and base layouts",
+        ": Ideation and functionality, user flows and basic designs, base code",
         <br/>,
         <strong>Week 2</strong>,
-        ": Search for sources of content for images, videos, and quotes. Get APIs working to get content. Complete frontend functionality",
+        ": Icons, logos and design palette",
         <br/>,
         <strong>Week 3</strong>,
-        ": Connect backend content to the frontend",
+        ": Hi - Fi designs, Login functionality",
+        <br/>,
+        <strong>Week 4</strong>,
+        ": Front-end Completed, Confusion backend completed",
+        <br/>,
+        <strong>Week 5</strong>,
+        ": Testing and implementation, Teacher/Student models revised",
       ]}
       challenges={[
           <ul>
-              <li>API request limits</li>
-              <li>Integrating different media pieces into the frontend</li>
-              <li>Appropriately resizing content in React components (especially for photos)</li>
+              <li>Evaluating which tools to use for the project</li>
+              <li>Modifying the default user class and login to accommodate for different student and teacher profiles</li>
+              <li>Modifying the stylized bars that represent levels of confusion</li>
+              <li>Implementing animations</li>
           </ul>
       ]}
       takeaways={[
         <ul>
-          <li><strong>Anna B</strong>: This project was a great way to get more familiar with React and experiment with calling different APIs. In hindsight, I wish that we had worked more incrementally to add each content type to the frontend, since our plan of working on those steps simultaneously meant that we had to rearrange a lot of the logic of the API callers to better fit the frontend.</li>
-          <li><strong>James C</strong>: I enjoyed working with others and experimenting with ReactJS to fully realize our project idea. Implementing the APIs, while a bit of a nuisance, taught me how everything comes together through integrating backend with frontend. Overall, it was a fun and interesting experience and, given the chance to continue with the project, I would emphasize planning ahead next time for how we would go about adding new features.</li>
-          <li><strong>Rain Y</strong>: Working on Ignite really helped me to tie all the experiences in the frontend from HTML/CSS to ReactJS together. I also got the chance to work on the backend with the Unsplash photo API and integrating it into the frontend. One biggest lesson I learned is that I should not constrain myself to just one spectrum in webdev, as both are crucial towards bringing together a featured, exciting web app. Going forward, I will work towards becoming a fullstack developer!</li>
-          <li><strong>Homer W</strong>: Coming up with this idea from the start to building out our frontend demo was simply one of the coolest experiences for me this semester. Being able to learn React while contributing to such a meaningful project was absolutely enriching, and I couldn’t have done it without all the help and support I’ve received from the Ignite team and the rest of Spark. One thing I’ve learned from this project is that, it’s never too late to start on something, and sometimes even the dumbest ideas could turn into things that are actually cool and useful (hopefully it’ll be). Plan early and start today!</li>
-          <li><strong>Will L</strong>: I learned a lot about React and web querying through working on Ignite. Though I regrettably didn’t have much time to work on the project, I enjoyed figuring out how to get quotes using a curl request and having it show up on a website. Going forward, my main goal is to manage my workload better and dedicate more time to our future projects so that hopefully we can continue developing more cool and meaningful apps/sites.</li>
+          <li><strong>Elaine F</strong>: It was pretty intimidating to work on a project from scratch, in terms of coming up with an idea, discussing the functionality, and then just going through and building it. Some tasks that seemed intimidating, like integrating frontend and backend, were actually fairly simple once I took a stab at them. I definitely learned a lot, especially in Django, and I’m so happy with how it turned out :) Massive shoutout to grac for all the support.</li>
+          <li><strong>Arushi S</strong>: Throughout the course of this project, I learned so much about developing an idea from scratch and seeing it be built from many different steps. I learned a lot about Django and how the backend of websites work and also how the frontend is connected to the backend. I’m so happy with how it turned out and am thankful for my teammates and grac :)</li>
+          <li><strong>Michelle Seiyon L</strong>: I learned that I could actually do design and dev, which I thought was impossible just a few weeks ago. It was also rewarding to find out that I could go sleepless on many nights without realizing it. Although I got closer with my computer than I should be, I am excited to learn more about the basics and applications of the front-end. I can’t believe that we actually managed to bring our idea to life. I am so proud of our team, and also special thanks to Grace for believing in us and for actually spending the hours to help us out!</li>
+          <li><strong>Paul L</strong>: It feels great to be able to put things together! Having completed a full spark design workshop series but with just a bit of CSS / HTML knowledge there was a sharp learning curve helping out with front-end, but it was very rewarding and I’ve definitely learnt a lot. </li>
         </ul>,
       ]}
       lookingForward={[
         "Looking forward, we could continue to expand our project by:",
         <ul>
-            <li>Working on UI/branding more</li>
-            <li>Work on graphic design, polish logo</li>
-            <li>Allow for dynamic resizing and better fitting for photos</li>
-            <li>Add search bar functionality</li>
-            <li>Add more content variety</li>
-            <li>Add shopping cart features</li>
-            <li>Add users + the ability to save content to look at later</li>
-            <li>Enable endless scrolling</li>
+            <li>Implement the confuso-meter page to overlay on top of lecture slides for ease of display. </li>
+            <li>Update the confuso-meter in real-time using event listeners.</li>
+            <li>We need to make the website responsive to mobile screen sizes so that students can not only use their laptops but also their phones to communicate their confusion.</li>
+            <li>Make it possible for students to put time stamps during class so that they get a report on what they need to review at the end of class. </li>
+            <li>Improve the design of a post-lecture survey that will not only help them to identify what they learned and did not understand, but also inform the lecturers on how to better respond to the student’s needs.</li>
+            <li>Complete backend functionality of adding different classes, class review page, post-lecture survey responses, and analytics.</li>
+            <li>Expand on information and analytics provided on the teacher side.</li>
         </ul>
       ]}
     ></ProjectLayout>
