@@ -34,7 +34,7 @@ export default class ProjectLayout extends React.Component {
                 backgroundPosition: "center",
             }}>
                 <div style={{ maxWidth: "920px", margin: "auto", paddingTop: "30px" }}>
-                    <p><strong><a href="/fall21" >&larr; Back to Fall 21 Projects</a></strong></p>
+                    <p><em><a href="/fall21" >&larr; Back to Fall 21 Projects</a></em></p>
                 </div>
             <div style={{ padding: "80px", paddingTop: "60px", textAlign: "center" }}>
             <div style={{ maxWidth: "920px", margin: "auto" }}>
@@ -47,7 +47,7 @@ export default class ProjectLayout extends React.Component {
                 <br />
 
                 <p>
-                    <a href={this.props.demoUrl} target="_blank" rel="noopener noreferrer">Demo</a>
+                    <strong><a href={this.props.demoUrl} target="_blank" rel="noopener noreferrer">Demo</a></strong>
                     {sourcecodeDivider}
                     <a href={this.props.sourcecodeUrl} target="_blank" rel="noopener noreferrer" >{sourcecodeLabel}</a>
                 </p>
@@ -69,6 +69,12 @@ export default class ProjectLayout extends React.Component {
                 <p>{this.props.timeline}</p>
                 <br />
                 <br />
+
+                <h1>Demo</h1>
+                <br/>
+                {this.props.demoVisuals}
+                <br/>
+                <br/>
 
                 <h1>Challenges</h1>
                 <br />

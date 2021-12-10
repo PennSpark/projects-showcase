@@ -135,6 +135,9 @@ export default function Fall21() {
           />
         </Grid.Column>
       </Grid>
+      <div style={{textAlign:"center", color:"#777777" }}>
+        <br/><p style={{fontSize:"1rem"}}><em>Built with &#9829; by Grace Jiang, Claire Zhang, &amp; Spark</em></p><br/>
+      </div>
     </Layout>
   )
 }
