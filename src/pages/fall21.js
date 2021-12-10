@@ -40,6 +40,8 @@ export default function Fall21() {
             title="Ignite"
             isCodingProject="True"
             isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
             description="Dynamic website that serves to provide creative inspiration."
             people="Anna Baringer, James Ciardullo, Will Liang, Homer Wang, Rain Yan"
           />
@@ -51,6 +53,8 @@ export default function Fall21() {
             title="Penn Tix"
             isCodingProject="True"
             isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
             description="Penn’s premiere ticket reselling platform."
             people="Matthew Dong, Yuhan Liu, Claire Zhang, Ethan Zhao"
           />
@@ -62,6 +66,8 @@ export default function Fall21() {
             title="Popplex"
             isCodingProject="True"
             isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
             description="Let’s pop your class perplexion!"
             people="Elaine Fan, Arushi Srivastava, Michelle Seiyon Lee, Paul Loh"
           />
