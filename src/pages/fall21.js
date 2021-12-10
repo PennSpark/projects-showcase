@@ -22,18 +22,18 @@ export default function Fall21() {
       <div
         style={{
           width: "100%",
-          padding: "100px",
-          textAlign: "center",
           backgroundImage: `url(${headerImg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
+        <div style={{padding: "100px", textAlign: "center",}}>
         <FadeIn>
           <h3 style={{ fontSize: "1.6rem" }}>Penn Spark</h3>
           <h1 style={{ fontSize: "3rem" }}>Fall 2021 Showcase</h1><br/>
           <p id="fa21-back-button"><a href="/"><strong>&larr; Back Home</strong></a>&nbsp;|&nbsp;<a href="https://www.facebook.com/events/229535855929777" target="_blank">Facebook Event</a></p>
         </FadeIn>
+        </div>
       </div>
 
       <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>

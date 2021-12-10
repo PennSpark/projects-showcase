@@ -26,28 +26,26 @@ export default class ProjectLayout extends React.Component {
         <body style={{ margin: "0px", padding: "0px" }}>
           <div
             style={{
-              width: "100%",
-              padding: "100px",
-              textAlign: "center",
-            //   backgroundColor: `${this.props.color}`,
+                width: "100%",
                 backgroundImage: `url(${this.props.img})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
           >
-            <div style={{ maxWidth: "600px", margin: "auto" }}>
+            <div className="sp21-nav-links" style={{ maxWidth: "720px", margin: "auto", paddingTop: "30px" }}>
+                <div style={{float: "left"}}><p><em><a href="/spring21" >&larr; Back to Spring 21 Projects</a></em></p></div>
+                <div style={{float: "right"}}><p><a href="/" >Home</a></p></div>
+            </div>
+            <div style={{ maxWidth: "720px", margin: "auto", padding: "100px", textAlign: "center",}}>
               <FadeIn>
                 <h1 style={{ fontSize: "3rem" }}>{this.props.title}</h1>
                 <br />
-
-                <p style={{ fontSize: "1.2rem" }}>{this.props.people}</p>
+                <h3>{this.props.blurb}</h3>
+                <br />
+                <p style={{ fontSize: "1.2rem" }}><em>{this.props.people}</em></p>
                 <br />
 
                 <h3>
-                  <a href="/spring21" style={{ color: "black" }}>
-                    &larr; Back to Spring 21 Projects
-                  </a>
-                  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
                   <a
                     href={this.props.projectUrl}
                     target="_blank"
@@ -60,7 +58,7 @@ export default class ProjectLayout extends React.Component {
             </div>
           </div>
           <Container style={{ paddingTop: "60px" }}>
-            <div style={{ maxWidth: "600px", margin: "auto" }}>
+            <div style={{ maxWidth: "720px", margin: "auto" }}>
               <FadeIn>
                 <h1>Background</h1>
                 <br />

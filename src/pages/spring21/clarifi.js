@@ -12,8 +12,8 @@ export default function Home() {
       projectUrl="https://www.figma.com/proto/WVF5dwYCrRR9PytPgTsizr/Clarifi-Mockup?node-id=171%3A1470&scaling=scale-down&page-id=129%3A332"
       isCodingProject="False"
       people="Elyssa Chou, Vivienne Chen, Kristine Lam"
-      background="We helped design for Clarifi, a startup creating an app to help students with ADHD get work done. We worked with their team to create a style guide for their product. Starting with a wireframe and eventually leading to an interactive prototype in FIGMA, we then designed a new user interface that streamlines their current product. Along the way, we checked in with their team frequently and got feedback from students piloting the product. We also helped develop preliminary logo designs and graphics which will continue to be developed in the future."
-      blurb="Designed user interface for Clarifi, an app to help students with ADHD get work done by limiting distractions, rewarding students with points and levels, and providing planning tools."
+      background="Clarifi is an app to help students with ADHD get work done by limiting distractions, rewarding students with points and levels, and providing planning tools. We helped design for Clarifi, a startup creating an app to help students with ADHD get work done. We worked with their team to create a style guide for their product. Starting with a wireframe and eventually leading to an interactive prototype in FIGMA, we then designed a new user interface that streamlines their current product. Along the way, we checked in with their team frequently and got feedback from students piloting the product. We also helped develop preliminary logo designs and graphics which will continue to be developed in the future."
+      blurb="An app to help students with ADHD get work done by gamifying work."
       timeline={[
         "Our project had three major milestones, detailed below:",
         <br />,

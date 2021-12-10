@@ -12,6 +12,7 @@ export default function Home() {
       projectUrl="https://github.com/PennCreativeLabs/sp21-poga"
       isCodingProject="True"
       people="Jimmy Ren, Isabel An, Janice Kim, Wendy Wu, Charles Cheng, Brandon Adiele, Tinatin Kokoshvili, Andrew Zhang"
+      blurb="A yoga-practicing app with a plant friend!"
       background="Want to start off your day right? Start it off by spending time with your plant-friend doing a yoga or meditation session, which will log your time and movements to give you the power to grow your plant-friend and you alongside it! Our AI-powered website will be able to monitor your progression through yoga workouts while you accumulate points and share your progress with friends."
       timeline={[
         <strong>Milestone 1</strong>,

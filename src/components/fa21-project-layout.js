@@ -56,8 +56,9 @@ export default class ProjectLayout extends React.Component {
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}>
-                <div style={{ maxWidth: "920px", margin: "auto", paddingTop: "30px" }}>
-                    <p><em><a href="/fall21" >&larr; Back to Fall 21 Projects</a></em></p>
+                <div className="fa21-nav-links" style={{ maxWidth: "920px", margin: "auto", paddingTop: "30px" }}>
+                    <div style={{float: "left"}}><p><em><a href="/fall21" >&larr; Back to Fall 21 Projects</a></em></p></div>
+                    <div style={{float: "right"}}><p><a href="/" >Home</a></p></div>
                 </div>
             <div style={{ padding: "80px", paddingTop: "60px", textAlign: "center" }}>
             <div style={{ maxWidth: "920px", margin: "auto" }}>
