@@ -5,7 +5,7 @@ import React from "react"
 import Layout from "../components/layout"
 import FadeIn from "react-fade-in"
 import Project from "../components/project-cover"
-import { Grid } from "semantic-ui-react"
+import { Grid, Label} from "semantic-ui-react"
 
 import headerImg from "../../static/img/fa21/header.png"
 import igniteImg from "../../static/img/fa21/ignite.png"
@@ -46,6 +46,7 @@ export default function Fall21() {
             isDesignProject="True"
             isClientProject="True"
             isCreativeProject="False"
+            additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Technical</Label>]}
             description="Clarifi is a product to help the 4.1 million teen students with ADHD to plan and complete their work."
             people="Anna Xia, Andrew Jiang, Kevin Zhou, Chelsea Cheng"
           />
@@ -60,6 +61,7 @@ export default function Fall21() {
             isDesignProject="True"
             isClientProject="True"
             isCreativeProject="False"
+            additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Red</Label>]}
             description="A Marketplace for 1:1 Advising Sessions"
             people="Marcel Kida, Alexander Zheng, Rachel Pierce"
           />
@@ -102,6 +104,7 @@ export default function Fall21() {
             isDesignProject="True"
             isClientProject="False"
             isCreativeProject="True"
+            additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Design</Label>]}
             description="Let’s pop your class perplexion!"
             people="Elaine Fan, Arushi Srivastava, Michelle Seiyon Lee, Paul Loh"
           />
@@ -116,6 +119,7 @@ export default function Fall21() {
             isDesignProject="True"
             isClientProject="False"
             isCreativeProject="True"
+            additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Blue</Label>, <Label color="teal" style={{marginBottom:"6px"}}>🏆 Coolest Idea</Label>]}
             description="Penn’s premiere ticket reselling platform."
             people="Matthew Dong, Yuhan Liu, Claire Zhang, Ethan Zhao"
           />

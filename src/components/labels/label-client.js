@@ -7,6 +7,6 @@ export default class LabelClient extends React.Component {
   }
 
   render() {
-    return <Label color="blush">👔 Client Project</Label>
+    return <Label color="blush" style={{marginBottom:"6px"}}>👔 Client</Label>
   }
 }

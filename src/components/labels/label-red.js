@@ -7,6 +7,6 @@ export default class LabelRed extends React.Component {
   }
 
   render() {
-    return <Label color="blush">❤️ Red</Label>
+    return <Label color="blush" style={{marginBottom:"6px"}}>❤️ Red</Label>
   }
 }

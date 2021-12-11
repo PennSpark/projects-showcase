@@ -62,6 +62,11 @@ export default class Project extends React.Component {
       redLabel = <></>
     }
 
+    const additionalLabels = this.props.additionalLabels
+    if (additionalLabels == "") {
+      additionalLabels = <></>
+    }
+
     return (
       <FadeIn>
         <a href={this.props.url}>
@@ -70,7 +75,7 @@ export default class Project extends React.Component {
             <Card.Content>
               <Card.Header>{this.props.title}</Card.Header>
               <Card.Meta>
-                {codingLabel}{designLabel}{clientLabel}{creativeLabel}{blueLabel}{redLabel}
+              {additionalLabels}{codingLabel}{designLabel}{clientLabel}{creativeLabel}{blueLabel}{redLabel}
                 {/* <span className="date">Joined in 2015</span> */}
               </Card.Meta>
               <Card.Description>{this.props.description}</Card.Description>

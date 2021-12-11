@@ -7,6 +7,6 @@ export default class LabelCreative extends React.Component {
   }
 
   render() {
-    return <Label color="blush">💡 Creative Project</Label>
+    return <Label color="blush" style={{marginBottom:"6px"}}>💡 Creative</Label>
   }
 }
