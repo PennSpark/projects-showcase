@@ -17,7 +17,7 @@ export default function Home() {
       people="Anna Xia, Andrew Jiang, Kevin Zhou, Chelsea Cheng"
       background={["This semester the team worked on developing the parent portal for Clarifi. Before, the parent portal was a spreadsheet which was difficult to comprehend and was not actionable for the parents. The team used Figma to create designs and used React.js to develop the front end of the parent portal. This portal includes a dashboard with statistics on their child’s working sessions and an assignments page where parents can see the students past and current assignments.", 
       <br/>, <br/>, <strong>Technologies Used</strong>,
-      ": ?"]}
+      ": React, Redux, Figma"]}
       blurb="Clarifi is a product to help the 4.1 million teen students with ADHD to plan and complete their work."
       timeline={[
         "Our project had the following timeline:",
@@ -40,9 +40,9 @@ export default function Home() {
       takeaways={[
         <ul>
           <li><strong>Anna X</strong>: This was my first time leading a team with developers, designers, and communicating with a client. I learned a lot about communicating between the different members of the team and keeping the team organized. I also learned how to use React.js and React Redux.</li>
-          <li><strong>Chelsea C</strong>: </li>
+          <li><strong>Chelsea C</strong>: I learned how to conduct user interviews and ask the right questions to help us better understand parent and educator perspectives. I also discovered that design was really a messy and non-linear process.</li>
           <li><strong>Andrew J</strong>: This was my first time being on a team with a client and designers, so I learned a lot about the workflow of being on a team and how to take client feedback and actualize it into tangible changes. Communication in particular was really important in this project, and I’m leaving it with a much better  understanding of how to communicate to be effective in a team environment.</li>
-          <li><strong>Kevin Z</strong>: </li>
+          <li><strong>Kevin Z</strong>: Prior to doing this project, a lot of my coding experience was from me creating personal projects on my own.  In this project, however, I had to learn how to both work in an existing codebase, as well as how to collaborate effectively with my team to complete our deliverables on time.</li>
         </ul>,
       ]}
       lookingForward={[
