@@ -9,7 +9,7 @@ export default function Home() {
     <ProjectLayout
       title="Ignite"
       img={igniteHeader}
-      demoUrl=""
+      demoUrl="https://spark-ignite.herokuapp.com/"
       sourcecodeUrl="https://github.com/PennSpark/fa21-blue-ignite"
       demoVisuals={[
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/sJ0YqRVvr80"></iframe>
