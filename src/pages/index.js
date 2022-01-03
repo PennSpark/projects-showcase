@@ -27,7 +27,7 @@ export default function Home() {
         }}
       >
         <FadeIn>
-          <a href="https://pennspark.org" target="_blank" rel="noopener noreferrer" >
+          <a href="https://pennspark.org" >
             <img src={logoImg} style={{ width: "160px" }} />
           </a>
           <h1 style={{ fontSize: "4rem" }}>Project Showcases</h1>
