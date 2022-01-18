@@ -31,7 +31,7 @@ export default function Fall21() {
         <FadeIn>
           <h3 style={{ fontSize: "1.6rem" }}>Penn Spark</h3>
           <h1 style={{ fontSize: "3rem" }}>Fall 2021 Showcase</h1><br/>
-          <p id="fa21-back-button"><a href="/"><strong>&larr; Back Home</strong></a>&nbsp;|&nbsp;<a href="https://www.facebook.com/events/229535855929777" target="_blank">Facebook Event</a></p>
+          <p id="fa21-back-button"><a href="/"><strong>&larr; Back Home</strong></a>&nbsp;|&nbsp;<a href="https://docs.google.com/presentation/d/1B0M2ThQLYZZRnzj2Z4Ir9VI_SWkcCNry9RWcjLE0ShY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Demo Slides</a>&nbsp;|&nbsp;<a href="https://www.facebook.com/events/229535855929777" target="_blank" rel="noopener noreferrer">Facebook Event</a></p>
         </FadeIn>
         </div>
       </div>
