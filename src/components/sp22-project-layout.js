@@ -135,13 +135,13 @@ export default class ProjectLayout extends React.Component {
                   <br />
                   <br />
 
+                  {demoVisualsContent}
+
                   <h1>Timeline</h1>
                   <br />
                   <p>{this.props.timeline}</p>
                   <br />
                   <br />
-
-                  {demoVisualsContent}
 
                   <h1>Challenges</h1>
                   <br />

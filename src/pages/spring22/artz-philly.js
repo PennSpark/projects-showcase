@@ -9,9 +9,11 @@ export default function Home() {
     <ProjectLayout
       title="ARTZ Philadelphia"
       img={artzPhillyHeader}
-      demoUrl="https://drive.google.com/file/d/1UcRfRkZUCvBqPesaBNXW12dRdkxWUVhh/view?usp=sharing"
+      demoUrl=""
       sourcecodeUrl=""
-      demoVisuals=""
+      demoVisuals={[
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/evQsy4vfxoM"></iframe>
+      ]}
       people="Anna Baringer, Eric Wang, Matthew Cho, Joyce He"
       background={[
         "ARTZ Philadelphia is a non-profit that enhances the quality of life for people living with dementia through joyful interactions around arts and culture. The specific initiative we worked with is  ARTZ in the Neighborhood, which provides programming for the Hunting Park and Northwest Philly neighborhoods, which are communities that are under-served and under-resourced.",
