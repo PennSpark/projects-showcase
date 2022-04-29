@@ -122,7 +122,7 @@ export default function Spring22() {
             isClientProject="False"
             isCreativeProject="True"
             // additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Technical</Label>]}
-            description="Mental health web app with mood, sleep, and anxiety trackers."
+            description="A wellness and journaling app that allows you to track anxiety and mood."
             people="Christiana Guan, Emily Guo, Na Kyung Lee, Sanya Shetty"
           />
         </Grid.Column>
