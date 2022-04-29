@@ -14,6 +14,7 @@ import interviewsLiveImg from "../../static/img/sp22/interviews-live.png"
 import pennPlaybookImg from "../../static/img/sp22/penn-playbook.png"
 import matchamakerImg from "../../static/img/sp22/matchamaker.png"
 import anxieteaImg from "../../static/img/sp22/anxietea.png"
+import penneventsImg from "../../static/img/sp22/penn-events.png"
 
 export default function Spring22() {
 
@@ -123,6 +124,21 @@ export default function Spring22() {
             // additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Technical</Label>]}
             description="Mental health web app with mood, sleep, and anxiety trackers."
             people="Christiana Guan, Emily Guo, Na Kyung Lee, Sanya Shetty"
+          />
+        </Grid.Column>
+
+        <Grid.Column>
+          <Project
+            img={penneventsImg}
+            url="/spring22/penn-events"
+            title="Penn Events"
+            isCodingProject="True"
+            isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
+            // additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Technical</Label>]}
+            description="Connecting Penn students with on-campus events."
+            people="Clyve Gassant, Yanjie Zhang, Myka Salvacion, Allison Zhang"
           />
         </Grid.Column>
 
