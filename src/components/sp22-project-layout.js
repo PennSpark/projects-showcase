@@ -75,7 +75,7 @@ export default class ProjectLayout extends React.Component {
                 <div style={{ float: "left" }}>
                   <p>
                     <em>
-                      <a href="/fall21">&larr; Back to Fall 21 Projects</a>
+                      <a href="/spring22">&larr; Back to Spring 22 Projects</a>
                     </em>
                   </p>
                 </div>
