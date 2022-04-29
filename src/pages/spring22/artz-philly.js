@@ -10,8 +10,8 @@ export default function Home() {
       title="ARTZ Philadelphia"
       projName={[<span style={{color: "white"}}>ARTZ Philadelphia</span>]}
       img={artzPhillyHeader}
-      demoUrl=""
-      sourcecodeUrl=""
+      // demoUrl=""
+      // sourcecodeUrl=""
       demoVisuals={[
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/evQsy4vfxoM"></iframe>
       ]}

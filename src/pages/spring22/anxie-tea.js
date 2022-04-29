@@ -12,13 +12,16 @@ export default function Home() {
       img={headerImg}
       
       // demoUrl=""
-      // sourcecodeUrl=""
+      sourcecodeUrl="https://github.com/PennSpark/sp22-blue-AnxieTea"
       demoVisuals={[
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>
       ]}
       people="Christiana Guan, Emily Guo, Na Kyung Lee, Sanya Shetty"
       background={[
-        "plz finish ur proj specs"
+        <p>Anxie-tea is a tea-themed mental wellness web application that serves as a mood tracker, anxiety tracker, and journaling app. It allows users to journal about their moods and feelings daily along with tracking sleep and anxiety symptoms. It tracks this over time, providing a calendar overview. Our goal is to help improve mental health and be able to track how you’re feeling and symptoms over time to identify common triggers or patterns. 
+            <br/>
+            <strong>Technologies Used</strong>: Figma, Django, HTML/CSS
+        </p>
       ]}
       blurb="A wellness and journaling app that allows you to track anxiety and mood."
       timeline={["plz finish ur proj specs"

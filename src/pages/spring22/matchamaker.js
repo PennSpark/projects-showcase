@@ -10,8 +10,8 @@ export default function Home() {
       title="MatchaMaker"
       projName="MatchaMaker"
       img={matchamakerHeader}
-      demoUrl=""
-      sourcecodeUrl=""
+      // demoUrl=""
+      sourcecodeUrl="https://github.com/PennSpark/sp22-blue-matchamaker"
       demoVisuals={[
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>
       ]}

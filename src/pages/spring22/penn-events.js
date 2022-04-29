@@ -70,7 +70,7 @@ export default function Home() {
       takeaways={[
         <ul>
           <li>
-            <strong>Allison Z</strong>: I've never worked with developers until this project, and I never realized how important it is to avoid silo-ing the work. For this project, we created the design and handed it off to the devs, but in the future I believe it would be better to hand off pieces of the design as we go, so that they can develop as we create and stay on the same page.
+            <strong>Allison Z</strong>: I've never worked with developers until this project, and I never realized how important it is to avoid solo-ing the work. For this project, we created the design and handed it off to the devs, but in the future I believe it would be better to hand off pieces of the design as we go, so that they can develop as we create and stay on the same page.
           </li>
           <li>
             <strong>Clyve G</strong>: This semester was my first time ever coding, so I had to get over the hump of all the technicalities behind it, learning the syntax, understanding the logic, and remembering all the languages we were learning. In the end, I enjoyed working with a team of beginners to my first project and increasing my interest in this field. I look forward to continue developing the skills I learned in the future.
@@ -78,6 +78,7 @@ export default function Home() {
           <li>
             <strong>Myka S</strong>: Since it was my first time working in a group with both designers and developers, there was a learning curve in understanding how to collaborate on a design instead of being the solo creative lead. Through the project, I was able to further develop my Figma skills, especially  with logo design, and gain experience in working with developers as a designer.
           </li>
+          <li><strong>Yanjie Z</strong>: As this was my first time coding in any regard, it was a little difficult to learn the language and connect both front-end and back-end. However, through this project, I learned the importance of constantly updating your partners with what you are doing, as they bring remarkable insights. Doing so also serves to smoothen the combination of design and development.</li>
         </ul>,
       ]}
       lookingForward={[
