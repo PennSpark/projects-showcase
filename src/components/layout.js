@@ -20,6 +20,7 @@ class Layout extends React.Component {
         </head>
         <main>
           <body style={{ margin: "0px", padding: "0px" }}>
+            <div style={{display: "none"}}><img src="https://hitwebcounter.com/counter/counter.php?page=7981409&style=0007&nbdigits=6&type=ip&initCount=0" /></div>
             {this.props.children}
           </body>
         </main>
