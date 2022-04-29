@@ -8,10 +8,13 @@ export default function Home() {
   return (
     <ProjectLayout
       title="MatchaMaker"
+      projName="MatchaMaker"
       img={matchamakerHeader}
-      demoUrl=""
-      sourcecodeUrl=""
-      demoVisuals=""
+      // demoUrl=""
+      sourcecodeUrl="https://github.com/PennSpark/sp22-blue-matchamaker"
+      demoVisuals={[
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>
+      ]}
       people="Alyssa Nie, Rain Yan, Dhatri Medarametla, Claire Zhang"
       background={[
         "Spark is one of the many clubs that requires coffee chats between its members. As a new member, it can be intimidating to see who you want to coffee chat, and as a returning member, you can get caught up in just coffee chatting your friends. We decided to make an easy way to match people with each other to make coffee chatting more involved and fun! Matchmaker features a survey with unique questions that each user can take and an algorithm that takes their answers to create weekly user matches. Each user can also customize their profile and upload their coffee chat photos to a gallery afterwards:)",

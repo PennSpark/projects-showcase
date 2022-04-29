@@ -8,10 +8,13 @@ export default function Home() {
   return (
     <ProjectLayout
       title="interviews.live"
+      projName="interviews.live"
       img={interviewsLiveHeader}
       demoUrl=""
       sourcecodeUrl=""
-      demoVisuals="https://drive.google.com/file/d/1UfFWrcCPrQIfp2o5cY0ULJpf8nhaZDNo/view?usp=sharing"
+      demoVisuals={[
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/GpVwSIa7Wpw"></iframe>
+      ]}
       people="Subin Kim, Jimmy Ciardullo, Acelyn Choi, Claire Zhang"
       background={[
         "Recruiting is difficult - the process could be extremely stressful and ambiguous to navigate and often end up being resource and time-consuming - and the global pandemic has made it even more so…",

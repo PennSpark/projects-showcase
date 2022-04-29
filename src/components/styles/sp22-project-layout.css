@@ -1,3 +1,21 @@
 p {
     font-size: 1.2rem;
 }
+
+.sp22-back-btn, .sp22-home-btn {
+    padding: 6px 12px 6px 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: black;
+    transition: 0.2s;
+}
+
+.sp22-back-btn:hover, .sp22-home-btn:hover {
+    color: white;
+    background-color: black;
+    transition: 0.2s;
+}
+/* 
+.sp22-header-img {
+    background-attachment: fixed;
+} */

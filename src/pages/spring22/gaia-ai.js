@@ -8,10 +8,14 @@ export default function Home() {
   return (
     <ProjectLayout
       title="Gaia AI"
+      projName="Gaia AI"
       img={gaiaAiHeader}
       demoUrl="https://sp22redgaiamaster.gatsbyjs.io/"
-      sourcecodeUrl=""
-      demoVisuals="https://drive.google.com/drive/folders/13z-LqVCwECagx1nb1Tp3JtwyHyhjZ1j1?usp=sharing"
+      bgColor="#F9FFF4"
+      // sourcecodeUrl=""
+      demoVisuals= {[
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/fSgz-OdhoNc"></iframe>
+      ]}
       people="Chelsea Cheng, Yuhan Liu, Sumanth Kadiyala, Paul Loh, Arush Mehrotra, Eric Dai"
       background={[
         "Gaia AI is an MIT & Harvard startup using drones, LiDAR, and computer vision to collect high-quality biomass data in forests, helping landowners, project developers, and investors understand the carbon stock and timber content of their land. By measuring the carbon content of a forest with high accuracy, Gaia AI gives carbon credit buyers confidence that their credit was backed by a ton of carbon sequestered, and thus creates trust in and helps unlock the carbon credit market.",
@@ -58,8 +62,7 @@ export default function Home() {
         </ul>,
       ]}
       lookingForward={[
-        "Handing the project off to Gaia AI team (Peter, Abdullah, Monica)! Gaia AI will be continuing to develop their data analytics platform + hardware
-        ",
+        "Handing the project off to Gaia AI team (Peter, Abdullah, Monica)! Gaia AI will be continuing to develop their data analytics platform + hardware",
       ]}
     ></ProjectLayout>
   )

@@ -8,11 +8,14 @@ export default function Home() {
   return (
     <ProjectLayout
       title="ARTZ Philadelphia"
+      projName={[<span style={{color: "white"}}>ARTZ Philadelphia</span>]}
       img={artzPhillyHeader}
-      demoUrl="https://drive.google.com/file/d/1UcRfRkZUCvBqPesaBNXW12dRdkxWUVhh/view?usp=sharing"
-      sourcecodeUrl=""
-      demoVisuals=""
-      people="Anna Baringer, Eric Wang, Matthew Cho, Joyce He"
+      // demoUrl=""
+      // sourcecodeUrl=""
+      demoVisuals={[
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/evQsy4vfxoM"></iframe>
+      ]}
+      people={[<span style={{color: "white"}}>Anna Baringer, Eric Wang, Matthew Cho, Joyce He</span>]}
       background={[
         "ARTZ Philadelphia is a non-profit that enhances the quality of life for people living with dementia through joyful interactions around arts and culture. The specific initiative we worked with is  ARTZ in the Neighborhood, which provides programming for the Hunting Park and Northwest Philly neighborhoods, which are communities that are under-served and under-resourced.",
         <br />,
@@ -33,7 +36,7 @@ export default function Home() {
         <br />,
         "This app is a React Native mobile application, compatible with both iOS and Android, with a Django/postgres backend, allowing ARTZ Philly admin to update information for events and participants.",
       ]}
-      blurb="A mobile application to help reduce the barriers for ARTZ Philly participants to join online programming."
+      blurb={[<span style={{color: "white"}}>A mobile application to help reduce the barriers for ARTZ Philly participants to join online programming.</span>]}
       timeline={[
         <strong>Week 0</strong>,
         <br />,
