@@ -11,7 +11,9 @@ export default function Home() {
       img={headerImg}
       // demoUrl="https://drive.google.com/file/d/1UcRfRkZUCvBqPesaBNXW12dRdkxWUVhh/view?usp=sharing"
       // sourcecodeUrl=""
-      demoVisuals=""
+      demoVisuals={[
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>
+      ]}
       people="Christiana Guan, Emily Guo, Na Kyung Lee, Sanya Shetty"
       background={[
         "plz finish ur proj specs"

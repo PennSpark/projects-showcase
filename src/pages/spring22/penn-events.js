@@ -11,7 +11,9 @@ export default function Home() {
       img={headerImg}
       // demoUrl="https://drive.google.com/file/d/1UcRfRkZUCvBqPesaBNXW12dRdkxWUVhh/view?usp=sharing"
       // sourcecodeUrl=""
-      demoVisuals=""
+      demoVisuals={[
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>
+      ]}
       people="Clyve Gassant, Yanjie Zhang, Myka Salvacion, Allison Zhang"
       background={[
         "Penn’s campus is always bustling with activity, every week full of student organization events, sports games, performances, and more. However, it can be difficult to find these events for students–sorting through hundreds of emails, Instagram posts, and Facebook events can be tiresome and inefficient. To address this issue, Penn Events seeks to provide a single location for every on-campus event to make discovery easier and more accessible. Student organizations can readily post their events with as much information as they’d like, and Penn students can explore events in a chronological order, filter by tag, date range, and ticket price, and add events to their personal calendar. Penn Events also features a “surprise me” page that allows the spontaneous student to let the website decide their next move for them. For this website, we used Figma for design, and django for development.",
