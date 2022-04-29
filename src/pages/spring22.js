@@ -13,7 +13,7 @@ import gaiaAiImg from "../../static/img/sp22/gaia-ai.png"
 import interviewsLiveImg from "../../static/img/sp22/interviews-live.png"
 import pennPlaybookImg from "../../static/img/sp22/penn-playbook.png"
 import matchamakerImg from "../../static/img/sp22/matchamaker.png"
-
+import anxieteaImg from "../../static/img/sp22/anxietea.png"
 
 export default function Spring22() {
 
@@ -86,7 +86,7 @@ export default function Spring22() {
             <Project
                 img={pennPlaybookImg}
                 url="/spring22/penn-playbook"
-                title="Penn Playbok"
+                title="Penn Playbook"
                 isCodingProject="True"
                 isDesignProject="True"
                 isClientProject="False"
@@ -108,6 +108,21 @@ export default function Spring22() {
             // additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Technical</Label>]}
             description="A website that makes coffee chatting easier and more fun!"
             people="Alyssa Nie, Rain Yan, Dhatri Medarametla, Claire Zhang"
+          />
+        </Grid.Column>
+
+        <Grid.Column>
+          <Project
+            img={anxieteaImg}
+            url="/spring22/anxie-tea"
+            title="anxie-tea"
+            isCodingProject="True"
+            isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
+            // additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Technical</Label>]}
+            description="Mental health web app with mood, sleep, and anxiety trackers."
+            people="Christiana Guan, Emily Guo, Na Kyung Lee, Sanya Shetty"
           />
         </Grid.Column>
 

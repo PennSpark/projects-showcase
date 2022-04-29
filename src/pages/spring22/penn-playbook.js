@@ -11,7 +11,10 @@ export default function Home() {
       img={pennPlaybookHeader}
       demoUrl="http://www.pennplaybook.com"
       sourcecodeUrl="https://github.com/PennSpark/sp22-red-penn-playbook/tree/deploy-christina"
-      demoVisuals="https://drive.google.com/file/d/1zKnmqxjQb40yr-6v9qYqHnRafIJwUAxo/view?usp=sharing"
+      demoVisuals=
+      {[
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/2Km4kdqS57k"></iframe>
+      ]}
       people="Marcel Kida, Andrew Jiang, Anna Xia, Ethan Zhao, Claire Zhang, Olivia Zha"
       background={[
         "Spring of 2022 has been a whirlwind of classwork, conversations, and covid exposures for most of us, but as we reach the last few days of this semester we find ourselves wanting to take the time to look back and reflect on the moments that made the last couple months.",
