@@ -55,8 +55,10 @@ export default class ProjectLayout extends React.Component {
         </head>
 
         <main>
-          <body style={{ margin: "0px", padding: "0px" }}>
+          <body style={{ margin: "0px", padding: "0px", paddingBottom: "50px", backgroundColor: this.props.bgColor }}>
+         
             <div
+            className="sp22-header-img"
               style={{
                 width: "100%",
                 backgroundImage: `url(${this.props.img})`,
@@ -65,31 +67,33 @@ export default class ProjectLayout extends React.Component {
               }}
             >
               <div
-                className="fa21-nav-links"
+                className="sp22-nav-links"
                 style={{
                   maxWidth: "920px",
                   margin: "auto",
                   paddingTop: "30px",
                 }}
               >
-                <div style={{ float: "left" }}>
+                    <div style={{ float: "left" }}>
                   <p>
-                    <em>
+                      <em>
                       <a href="/spring22"><div className="sp22-back-btn">
                       &larr; Back to Spring 22 Projects
                           </div></a>
-                    </em>
+                      </em>
                   </p>
-                </div>
-                <div style={{ float: "right" }}>
+                  </div>
+                  <div style={{ float: "right", marginLeft: "20px" }}>
                   <p>
-                    <a href="/">
-                        <div className="sp22-home-btn">
-                            Home
-                        </div>
-                    </a>
+                      <a href="/">
+                          <div className="sp22-home-btn">
+                              Home
+                          </div>
+                      </a>
                   </p>
-                </div>
+                  </div>
+                 
+                
               </div>
               <div
                 style={{
@@ -132,8 +136,8 @@ export default class ProjectLayout extends React.Component {
                 </div>
               </div>
             </div>
-            <Container style={{ paddingTop: "60px" }}>
-              <div style={{ maxWidth: "920px", margin: "auto" }}>
+            <Container style={{ paddingTop: "60px", backgroundColor: this.props.bgColor }}>
+              <div style={{ maxWidth: "920px", margin: "auto", zIndex: "5" }}>
                 <FadeIn>
                   <h1>Background</h1>
                   <br />
@@ -170,7 +174,6 @@ export default class ProjectLayout extends React.Component {
           </body>
         </main>
 
-        <footer style={{ height: "50px" }}></footer>
       </html>
     )
   }

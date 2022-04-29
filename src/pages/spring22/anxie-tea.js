@@ -10,7 +10,8 @@ export default function Home() {
       title="anxie-tea"
       projName="anxie-tea"
       img={headerImg}
-      // demoUrl="https://drive.google.com/file/d/1UcRfRkZUCvBqPesaBNXW12dRdkxWUVhh/view?usp=sharing"
+      
+      // demoUrl=""
       // sourcecodeUrl=""
       demoVisuals={[
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>

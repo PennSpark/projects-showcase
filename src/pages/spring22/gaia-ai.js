@@ -11,6 +11,7 @@ export default function Home() {
       projName="Gaia AI"
       img={gaiaAiHeader}
       demoUrl="https://sp22redgaiamaster.gatsbyjs.io/"
+      bgColor="#F9FFF4"
       sourcecodeUrl=""
       demoVisuals= {[
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/fSgz-OdhoNc"></iframe>
