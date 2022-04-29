@@ -120,7 +120,9 @@ export default function Home() {
         </ul>,
         <br />,
       ]}
-      challenges={[]}
+      challenges={[
+        "Our biggest challenges came with working out the technicalities of implementing the client’s vision. On the backend, for example, we had to decide on what types of information to store in our application and user databases. We also had to figure out what routes to include and how to navigate between them in a way consistent with the user flows we were implementing. Although our developers had experience with React, exploring and learning how to use different UI libraries to implement the frontend in accordance with the client’s vision also posed a challenge for us. Through this project our team was able to gain more experience with the technicalities of implementing a vision for a project and the integration of frontend and backend.",
+      ]}
       takeaways={[
         <ul>
           <li>
