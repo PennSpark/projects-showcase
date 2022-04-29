@@ -60,7 +60,7 @@ export default function Home() {
       challenges={[
         <ul>
           <li>
-            our team can't follow directions and didn't fill this out on time!
+            :-)
           </li>
           
         </ul>,
