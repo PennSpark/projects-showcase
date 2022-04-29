@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <ProjectLayout
       title="interviews.live"
+      projName="interviews.live"
       img={interviewsLiveHeader}
       demoUrl=""
       sourcecodeUrl=""

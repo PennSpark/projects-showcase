@@ -75,13 +75,19 @@ export default class ProjectLayout extends React.Component {
                 <div style={{ float: "left" }}>
                   <p>
                     <em>
-                      <a href="/spring22">&larr; Back to Spring 22 Projects</a>
+                      <a href="/spring22"><div className="sp22-back-btn">
+                      &larr; Back to Spring 22 Projects
+                          </div></a>
                     </em>
                   </p>
                 </div>
                 <div style={{ float: "right" }}>
                   <p>
-                    <a href="/">Home</a>
+                    <a href="/">
+                        <div className="sp22-home-btn">
+                            Home
+                        </div>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -94,7 +100,7 @@ export default class ProjectLayout extends React.Component {
               >
                 <div style={{ maxWidth: "920px", margin: "auto" }}>
                   <FadeIn>
-                    <h1 style={{ fontSize: "3rem" }}>{this.props.title}</h1>
+                    <h1 style={{ fontSize: "3rem" }}>{this.props.projName}</h1>
                     <br />
                     <h3>{this.props.blurb}</h3>
                     <br />

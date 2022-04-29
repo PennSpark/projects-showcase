@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <ProjectLayout
       title="anxie-tea"
+      projName="anxie-tea"
       img={headerImg}
       // demoUrl="https://drive.google.com/file/d/1UcRfRkZUCvBqPesaBNXW12dRdkxWUVhh/view?usp=sharing"
       // sourcecodeUrl=""

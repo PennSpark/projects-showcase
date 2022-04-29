@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <ProjectLayout
       title="Penn Events"
+      projName="Penn Events"
       img={headerImg}
       // demoUrl="https://drive.google.com/file/d/1UcRfRkZUCvBqPesaBNXW12dRdkxWUVhh/view?usp=sharing"
       // sourcecodeUrl=""

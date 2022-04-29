@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <ProjectLayout
       title="Penn Playbook"
+      projName={[<span style={{color: "white"}}>Penn Playbook</span>]}
       img={pennPlaybookHeader}
       demoUrl="http://www.pennplaybook.com"
       sourcecodeUrl="https://github.com/PennSpark/sp22-red-penn-playbook/tree/deploy-christina"

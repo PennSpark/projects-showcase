@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <ProjectLayout
       title="Gaia AI"
+      projName="Gaia AI"
       img={gaiaAiHeader}
       demoUrl="https://sp22redgaiamaster.gatsbyjs.io/"
       sourcecodeUrl=""

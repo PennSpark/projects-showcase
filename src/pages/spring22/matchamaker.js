@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <ProjectLayout
       title="MatchaMaker"
+      projName="MatchaMaker"
       img={matchamakerHeader}
       demoUrl=""
       sourcecodeUrl=""
