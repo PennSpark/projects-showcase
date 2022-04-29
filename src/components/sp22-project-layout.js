@@ -3,7 +3,7 @@ import FadeIn from "react-fade-in"
 import { Container } from "semantic-ui-react"
 import Helmet from "react-helmet"
 
-import "./styles/sp21-project-layout.css"
+import "./styles/sp22-project-layout.css"
 
 export default class ProjectLayout extends React.Component {
   constructor(props) {
@@ -11,19 +11,46 @@ export default class ProjectLayout extends React.Component {
   }
 
   render() {
-    const isCodingProject = this.props.isCodingProject
-    let codingLabel
-    if (isCodingProject == "True") {
-      codingLabel = "Source Code"
+    const demoUrl = this.props.demoUrl
+    let demoUrlLabel
+    if (demoUrl == "") {
+      demoUrlLabel = ""
     } else {
-      codingLabel = "Figma"
+      demoUrlLabel = "Demo"
+    }
+
+    const sourcecodeUrl = this.props.sourcecodeUrl
+    let sourcecodeLabel
+    let sourcecodeDivider
+    if (sourcecodeUrl == "") {
+      sourcecodeLabel = ""
+      sourcecodeDivider = ""
+    } else {
+      sourcecodeDivider = " | "
+      sourcecodeLabel = "Source Code"
+    }
+
+    const demoVisuals = this.props.demoVisuals
+    let demoVisualsContent
+    if (demoVisuals == "") {
+      demoVisualsContent = <></>
+    } else {
+      demoVisualsContent = (
+        <>
+          <h1>Demo</h1>
+          <br />
+          {this.props.demoVisuals}
+          <br />
+          <br />
+        </>
+      )
     }
 
     return (
       <html lang="en">
         <head>
           <Helmet>
-            <title>{this.props.title} | PCL Showcase</title>
+            <title>{this.props.title} | Spark</title>
           </Helmet>
         </head>
 
@@ -38,9 +65,9 @@ export default class ProjectLayout extends React.Component {
               }}
             >
               <div
-                className="sp21-nav-links"
+                className="fa21-nav-links"
                 style={{
-                  maxWidth: "720px",
+                  maxWidth: "920px",
                   margin: "auto",
                   paddingTop: "30px",
                 }}
@@ -48,7 +75,7 @@ export default class ProjectLayout extends React.Component {
                 <div style={{ float: "left" }}>
                   <p>
                     <em>
-                      <a href="/spring21">&larr; Back to Spring 21 Projects</a>
+                      <a href="/fall21">&larr; Back to Fall 21 Projects</a>
                     </em>
                   </p>
                 </div>
@@ -60,41 +87,51 @@ export default class ProjectLayout extends React.Component {
               </div>
               <div
                 style={{
-                  maxWidth: "720px",
-                  margin: "auto",
-                  padding: "100px",
+                  padding: "80px",
+                  paddingTop: "60px",
                   textAlign: "center",
                 }}
               >
-                <FadeIn>
-                  <h1 style={{ fontSize: "3rem" }}>{this.props.title}</h1>
-                  <br />
-                  <h3>{this.props.blurb}</h3>
-                  <br />
-                  <p style={{ fontSize: "1.2rem" }}>
-                    <em>{this.props.people}</em>
-                  </p>
-                  <br />
+                <div style={{ maxWidth: "920px", margin: "auto" }}>
+                  <FadeIn>
+                    <h1 style={{ fontSize: "3rem" }}>{this.props.title}</h1>
+                    <br />
+                    <h3>{this.props.blurb}</h3>
+                    <br />
+                    <p style={{ fontSize: "1.2rem" }}>
+                      <em>{this.props.people}</em>
+                    </p>
+                    <br />
 
-                  <h3>
-                    <a
-                      href={this.props.projectUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {codingLabel}
-                    </a>
-                  </h3>
-                </FadeIn>
+                    <p>
+                      <strong>
+                        <a
+                          href={this.props.demoUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {demoUrlLabel}
+                        </a>
+                      </strong>
+                      {sourcecodeDivider}
+                      <a
+                        href={this.props.sourcecodeUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {sourcecodeLabel}
+                      </a>
+                    </p>
+                  </FadeIn>
+                </div>
               </div>
             </div>
             <Container style={{ paddingTop: "60px" }}>
-              <div style={{ maxWidth: "720px", margin: "auto" }}>
+              <div style={{ maxWidth: "920px", margin: "auto" }}>
                 <FadeIn>
                   <h1>Background</h1>
                   <br />
                   <p>{this.props.background}</p>
-                  <br />
                   <br />
                   <br />
 
@@ -103,19 +140,18 @@ export default class ProjectLayout extends React.Component {
                   <p>{this.props.timeline}</p>
                   <br />
                   <br />
-                  <br />
+
+                  {demoVisualsContent}
 
                   <h1>Challenges</h1>
                   <br />
                   <p>{this.props.challenges}</p>
                   <br />
                   <br />
-                  <br />
 
                   <h1>Takeaways</h1>
                   <br />
                   <p>{this.props.takeaways}</p>
-                  <br />
                   <br />
                   <br />
 

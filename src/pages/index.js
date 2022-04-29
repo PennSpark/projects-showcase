@@ -9,6 +9,7 @@ import { Card, Icon, Image } from "semantic-ui-react"
 
 import headerImg from "../../static/img/header.png"
 import logoImg from "../../static/img/logo.png"
+import sp22Img from "../../static/img/sp22-splash.png"
 import fa21Img from "../../static/img/fa21-splash.png"
 import sp21Img from "../../static/img/sp21-splash.png"
 
@@ -65,6 +66,19 @@ export default function Home() {
       </div>
 
       <Grid container columns={2} style={{ margin: "auto", marginTop: "30px", paddingBottom: "60px"}}>
+      <Grid.Column>
+          <FadeIn>
+          <a href="spring22">
+            <Card style={{width: "100%"}}>
+              <Image src={sp22Img} wrapped ui={false} />
+              <Card.Content style={{textAlign:"center"}}>
+                <Card.Header><h2>Spring 2022 Projects</h2></Card.Header>
+              </Card.Content>
+            </Card>
+          </a>
+          <br/>
+          </FadeIn>
+        </Grid.Column>
         <Grid.Column>
           <FadeIn>
           <a href="fall21">
@@ -75,6 +89,7 @@ export default function Home() {
               </Card.Content>
             </Card>
           </a>
+          <br/>
           </FadeIn>
         </Grid.Column>
         <Grid.Column>
@@ -87,8 +102,10 @@ export default function Home() {
               </Card.Content>
             </Card>
           </a>
+          <br/>
           </FadeIn>
         </Grid.Column>
+        
       </Grid>
     </Layout>
   )
