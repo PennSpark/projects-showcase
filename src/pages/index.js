@@ -11,6 +11,7 @@ import headerImg from "../../static/img/header.png"
 import logoImg from "../../static/img/logo.png"
 import sp22Img from "../../static/img/sp22-splash.png"
 import fa21Img from "../../static/img/fa21-splash.png"
+import fa22Img from "../../static/img/fa22-splash.png"
 import sp21Img from "../../static/img/sp21-splash.png"
 
 export default function Home() {
@@ -66,6 +67,19 @@ export default function Home() {
       </div>
 
       <Grid container columns={2} style={{ margin: "auto", marginTop: "30px", paddingBottom: "60px"}}>
+      <Grid.Column>
+          <FadeIn>
+          <a href="fall22">
+            <Card style={{width: "100%"}}>
+              <Image src={fa22Img} wrapped ui={false} />
+              <Card.Content style={{textAlign:"center"}}>
+                <Card.Header><h2>Fall 2022 Projects</h2></Card.Header>
+              </Card.Content>
+            </Card>
+          </a>
+          <br/>
+          </FadeIn>
+        </Grid.Column>
       <Grid.Column>
           <FadeIn>
           <a href="spring22">
