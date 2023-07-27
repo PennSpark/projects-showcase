@@ -31,7 +31,7 @@ export default function Home() {
         <br />,
         <strong>Week 9-12</strong>,
         <br />,
-        "Implementation of the prototype and deployment",
+        "Implementation of the prototype, re-iteration with client, then deployment",
         <br />,
       ]}
       challenges={[

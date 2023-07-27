@@ -19,7 +19,7 @@ export default function Home() {
           <img width="50%" src={RespondCrisisDemoDb} />
         </div>,
       ]}
-      people={[<span style={{ color: "black" }}>Paul Loh, Sumanth Kadiyala, Marcel Kida, Joyce He</span>]}
+      people={[<span style={{ color: "black" }}>Paul Loh, Sumanth Kadiyala, Marcel Kida, Joyce He, Kristine Lam</span>]}
       background={[
         "Respond is a non-profit that organizes over 2500 translators to help translate documents for migrants - often working alongside partner organizations. As the organization scaled, Respond was looking for a more streamlined workflow and data management system than their current mishmash of google sheets and forms. We partnered with Respond to re-shape their workflow, and implemented a user-friendly database system in Airtable that minimized workload and automated many calculations, giving the core team more time to focus on more important tasks. ",
         <br />,
@@ -32,7 +32,8 @@ export default function Home() {
         <br />,
         "Hooks to external services (e.g. Google Sheets)",
         <br />,
-        "This was developed using Airtable API and Zapier.",
+        "Varying levels of user access (for data privacy)",
+        <br />,
       ]}
       blurb={[<span style={{ color: "black" }}>A database re-design to help a small non-profit team do more.</span>]}
       timeline={[

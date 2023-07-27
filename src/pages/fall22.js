@@ -8,13 +8,9 @@ import Project from "../components/project-cover"
 import { Grid, Label } from "semantic-ui-react"
 
 import headerImg from "../../static/img/fa22/header.png"
-import igniteImg from "../../static/img/fa21/ignite.png"
-import penntixImg from "../../static/img/fa21/penntix.png"
-import popplexImg from "../../static/img/fa21/popplex.png"
-import clarifiImg from "../../static/img/fa21/clarifi.png"
-import counselabImg from "../../static/img/fa21/counselab.png"
-import bonfireImg from "../../static/img/fa21/bonfire.png"
-import commoncentsImg from "../../static/img/fa21/common-cents.png"
+import respondImg from "../../static/img/fa22/respond.png"
+import urekaImg from "../../static/img/fa22/ureka.png"
+
 
 export default function Fall22() {
   return (
@@ -39,7 +35,7 @@ export default function Fall22() {
       <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>
         <Grid.Column>
           <Project
-            img={clarifiImg}
+            img={respondImg}
             url="/fall22/respond-crisis"
             title="Respond Crisis Translation"
             isCodingProject="True"
@@ -48,12 +44,12 @@ export default function Fall22() {
             isCreativeProject="False"
             // additionalLabels={[<Label color="teal" style={{ marginBottom: "6px" }}>🏆 Best Technical</Label>]}
             description="A database re-design for a non-profit team handling more than 2500 translators through automation and ease of use. "
-            people="Anna Xia, Andrew Jiang, Kevin Zhou, Chelsea Cheng"
+            people="Paul Loh, Sumanth Kadiyala, Marcel Kida, Joyce He, Kristine Lam"
           />
         </Grid.Column>
         <Grid.Column>
           <Project
-            img={counselabImg}
+            img={urekaImg}
             url="/fall22/ureka-health"
             title="Ureka Health"
             isCodingProject="True"
@@ -66,7 +62,7 @@ export default function Fall22() {
           />
         </Grid.Column>
 
-        <Grid.Column>
+        {/* <Grid.Column>
           <Project
             img={bonfireImg}
             url="/fall21/bonfire"
@@ -136,7 +132,7 @@ export default function Fall22() {
             description="Dynamic website that serves to provide creative inspiration."
             people="Anna Baringer, James Ciardullo, Will Liang, Homer Wang, Rain Yan"
           />
-        </Grid.Column>
+        </Grid.Column> */}
       </Grid>
       <div style={{ textAlign: "center", color: "#777777" }}>
         <br /><p style={{ fontSize: "1rem" }}><em>Built with &#9829; by Jimmy Ren &amp; Spark</em></p><br />
