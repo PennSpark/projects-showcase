@@ -8,13 +8,13 @@ import Project from "../components/project-cover"
 import { Grid, Label } from "semantic-ui-react"
 
 import headerImg from "../../static/img/sp23/header.png"
-import artzPhillyImg from "../../static/img/sp22/artz-philly.png"
-import gaiaAiImg from "../../static/img/sp22/gaia-ai.png"
-import interviewsLiveImg from "../../static/img/sp22/interviews-live.png"
-import pennPlaybookImg from "../../static/img/sp22/penn-playbook.png"
-import matchamakerImg from "../../static/img/sp22/matchamaker.png"
-import anxieteaImg from "../../static/img/sp22/anxietea.png"
-import penneventsImg from "../../static/img/sp22/penn-events.png"
+import beraterImg from "../../static/img/sp23/berater.png"
+import coffeechatImg from "../../static/img/sp23/coffee-chat.png"
+import findMeFoodImg from "../../static/img/sp23/find-me-food.png"
+import studiousImg from "../../static/img/sp23/studious.png"
+import catsImg from "../../static/img/sp23/cats.png"
+import proceduralCityImg from "../../static/img/sp23/procedural-city.png"
+import sparkPhotosImg from "../../static/img/sp23/spark-in-photos.png"
 
 const Spring23 = () => {
   return (
@@ -54,7 +54,7 @@ const Spring23 = () => {
       <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>
         <Grid.Column>
           <Project
-            img={interviewsLiveImg}
+            img={proceduralCityImg}
             url="/spring23/procedural-city"
             title="Procedural City"
             isCodingProject="True"
@@ -68,9 +68,9 @@ const Spring23 = () => {
 
         <Grid.Column>
           <Project
-            img={artzPhillyImg}
-            url="/spring23/cats"
-            title="Cats"
+            img={catsImg}
+            url="/spring23/catz"
+            title="CATZ"
             isCodingProject="True"
             isDesignProject="True"
             isClientProject="True"
@@ -82,7 +82,7 @@ const Spring23 = () => {
 
         <Grid.Column>
           <Project
-            img={gaiaAiImg}
+            img={sparkPhotosImg}
             url="/spring23/spark-in-photos"
             title="Spark in Photos"
             isCodingProject="True"
@@ -90,13 +90,13 @@ const Spring23 = () => {
             isClientProject="True"
             isCreativeProject="False"
             description="Spark-in-photos serves as an online photo album- a way of automatically collecting and showcasing all the memories within Spark (and our Slack) in one place."
-            people="Paul Loh, Christiana Guan, Jasper Zhu, Cindy Wei, Haley Kang, Dhatri Medarametla"
+            people="Paul Loh, Christiana Guan, Jasper Zhu, Cindy Wei, Haley Kang, Dhatri Medarametla, Marcel Kida"
           />
         </Grid.Column>
 
         <Grid.Column>
           <Project
-            img={pennPlaybookImg}
+            img={findMeFoodImg}
             url="/spring23/find-me-food"
             title="FindMeFood"
             isCodingProject="True"
@@ -110,7 +110,7 @@ const Spring23 = () => {
 
         <Grid.Column>
           <Project
-            img={anxieteaImg}
+            img={beraterImg}
             url="/spring23/berater"
             title="BeRater"
             isCodingProject="True"
@@ -125,7 +125,7 @@ const Spring23 = () => {
 
         <Grid.Column>
           <Project
-            img={anxieteaImg}
+            img={coffeechatImg}
             url="/spring23/coffee-chat"
             title="coffeechat"
             isCodingProject="True"
@@ -140,7 +140,7 @@ const Spring23 = () => {
 
         <Grid.Column>
           <Project
-            img={penneventsImg}
+            img={studiousImg}
             url="/spring23/studious"
             title="studioUS"
             isCodingProject="True"
