@@ -5,16 +5,12 @@ import React from "react"
 import Layout from "../components/layout"
 import FadeIn from "react-fade-in"
 import Project from "../components/project-cover"
-import { Grid, Label} from "semantic-ui-react"
+import { Grid, Label } from "semantic-ui-react"
 
 import headerImg from "../../static/img/fa22/header.png"
-import igniteImg from "../../static/img/fa21/ignite.png"
-import penntixImg from "../../static/img/fa21/penntix.png"
-import popplexImg from "../../static/img/fa21/popplex.png"
-import clarifiImg from "../../static/img/fa21/clarifi.png"
-import counselabImg from "../../static/img/fa21/counselab.png"
-import bonfireImg from "../../static/img/fa21/bonfire.png"
-import commoncentsImg from "../../static/img/fa21/common-cents.png"
+import respondImg from "../../static/img/fa22/respond.png"
+import urekaImg from "../../static/img/fa22/ureka.png"
+
 
 export default function Fall22() {
   return (
@@ -27,47 +23,46 @@ export default function Fall22() {
           backgroundPosition: "center",
         }}
       >
-        <div style={{padding: "100px", textAlign: "center",}}>
-        <FadeIn>
-          <h3 style={{ fontSize: "1.6rem" }}>Penn Spark</h3>
-          <h1 style={{ fontSize: "3rem" }}>Fall 2022 Showcase</h1><br/>
-          <p id="fa21-back-button"><a href="/"><strong>&larr; Back Home</strong></a>&nbsp;|&nbsp;<a href="https://docs.google.com/presentation/d/1SisZm5E7g37BqNdfcheM982qhqMBirU9q0JPlBpqNG4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Demo Slides</a>&nbsp;|&nbsp;<a href="https://www.facebook.com/events/650108536760111" target="_blank" rel="noopener noreferrer">Facebook Event</a></p>
-        </FadeIn>
+        <div style={{ padding: "100px", textAlign: "center", }}>
+          <FadeIn>
+            <h3 style={{ fontSize: "1.6rem" }}>Penn Spark</h3>
+            <h1 style={{ fontSize: "3rem" }}>Fall 2022 Showcase</h1><br />
+            <p id="fa21-back-button"><a href="/"><strong>&larr; Back Home</strong></a>&nbsp;|&nbsp;<a href="https://docs.google.com/presentation/d/1SisZm5E7g37BqNdfcheM982qhqMBirU9q0JPlBpqNG4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Demo Slides</a>&nbsp;|&nbsp;<a href="https://www.facebook.com/events/650108536760111" target="_blank" rel="noopener noreferrer">Facebook Event</a></p>
+          </FadeIn>
         </div>
       </div>
 
-      {/* <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>
-      <Grid.Column>
+      <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>
+        <Grid.Column>
           <Project
-            img={clarifiImg}
-            url="/fall21/clarifi"
-            title="Clarifi"
+            img={respondImg}
+            url="/fall22/respond-crisis"
+            title="Respond Crisis Translation"
+            isCodingProject="True"
+            isDesignProject="False"
+            isClientProject="True"
+            isCreativeProject="False"
+            // additionalLabels={[<Label color="teal" style={{ marginBottom: "6px" }}>🏆 Best Technical</Label>]}
+            description="A database re-design for a non-profit team handling more than 2500 translators through automation and ease of use. "
+            people="Paul Loh, Sumanth Kadiyala, Marcel Kida, Joyce He, Kristine Lam"
+          />
+        </Grid.Column>
+        <Grid.Column>
+          <Project
+            img={urekaImg}
+            url="/fall22/ureka-health"
+            title="Ureka Health"
             isCodingProject="True"
             isDesignProject="True"
             isClientProject="True"
             isCreativeProject="False"
-            additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Technical</Label>]}
-            description="Clarifi is a product to help the 4.1 million teen students with ADHD to plan and complete their work."
-            people="Anna Xia, Andrew Jiang, Kevin Zhou, Chelsea Cheng"
+            additionalLabels={[<Label color="teal" style={{ marginBottom: "6px" }}>🏆 Best Red</Label>]}
+            description="Giving health and wellness a fresh new look."
+            people="Na Lee, Arush Mehrotra, Haley Kang, Yuni Kim, Myka Salvacion, Chelsea Cheng"
           />
         </Grid.Column>
 
-        <Grid.Column>
-          <Project
-            img={counselabImg}
-            url="/fall21/counselab"
-            title="Counselab"
-            isCodingProject="True"
-            isDesignProject="True"
-            isClientProject="True"
-            isCreativeProject="False"
-            additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Red</Label>]}
-            description="A Marketplace for 1:1 Advising Sessions"
-            people="Marcel Kida, Alexander Zheng, Rachel Pierce"
-          />
-        </Grid.Column>
-
-        <Grid.Column>
+        {/* <Grid.Column>
           <Project
             img={bonfireImg}
             url="/fall21/bonfire"
@@ -104,7 +99,7 @@ export default function Fall22() {
             isDesignProject="True"
             isClientProject="False"
             isCreativeProject="True"
-            additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Design</Label>]}
+            additionalLabels={[<Label color="teal" style={{ marginBottom: "6px" }}>🏆 Best Design</Label>]}
             description="Let’s pop your class perplexion!"
             people="Elaine Fan, Arushi Srivastava, Michelle Seiyon Lee, Paul Loh"
           />
@@ -119,7 +114,7 @@ export default function Fall22() {
             isDesignProject="True"
             isClientProject="False"
             isCreativeProject="True"
-            additionalLabels={[<Label color="teal" style={{marginBottom:"6px"}}>🏆 Best Blue</Label>, <Label color="teal" style={{marginBottom:"6px"}}>🏆 Coolest Idea</Label>]}
+            additionalLabels={[<Label color="teal" style={{ marginBottom: "6px" }}>🏆 Best Blue</Label>, <Label color="teal" style={{ marginBottom: "6px" }}>🏆 Coolest Idea</Label>]}
             description="Penn’s premiere ticket reselling platform."
             people="Matthew Dong, Yuhan Liu, Claire Zhang, Ethan Zhao"
           />
@@ -137,11 +132,10 @@ export default function Fall22() {
             description="Dynamic website that serves to provide creative inspiration."
             people="Anna Baringer, James Ciardullo, Will Liang, Homer Wang, Rain Yan"
           />
-        </Grid.Column>
-      </Grid> */}
-      <h1 style={{textAlign: "center"}}> 🚧 working on this... 🚧</h1>
-      <div style={{textAlign:"center", color:"#777777" }}>
-        <br/><p style={{fontSize:"1rem"}}><em>Built with &#9829; by Jimmy Ren &amp; Spark</em></p><br/>
+        </Grid.Column> */}
+      </Grid>
+      <div style={{ textAlign: "center", color: "#777777" }}>
+        <br /><p style={{ fontSize: "1rem" }}><em>Built with &#9829; by Jimmy Ren &amp; Spark</em></p><br />
       </div>
     </Layout>
   )
