@@ -15,15 +15,24 @@ export default class ProjectLayout extends React.Component {
     let demoUrlLabel
     if (demoUrl == "") {
       demoUrlLabel = ""
-      sourcecodeDivider = ""
     } else {
       demoUrlLabel = "Demo"
-      sourcecodeDivider = " | "
     }
 
     const sourcecodeUrl = this.props.sourcecodeUrl
     let sourcecodeLabel
     let sourcecodeDivider
+
+    if (sourcecodeUrl && demoUrl) {
+      sourcecodeDivider = " | "
+    } else {
+      sourcecodeDivider = ""
+    }
+
+
+
+
+
     if (sourcecodeUrl == "") {
       sourcecodeLabel = ""
 
@@ -145,21 +154,36 @@ export default class ProjectLayout extends React.Component {
 
                   {demoVisualsContent}
 
-                  <h1>Challenges</h1>
-                  <br />
-                  <p>{this.props.challenges}</p>
-                  <br />
-                  <br />
 
-                  <h1>Takeaways</h1>
-                  <br />
-                  <p>{this.props.takeaways}</p>
-                  <br />
-                  <br />
+                  {this.props.challenges && (
+                    <>
+                      <h1>Challenges</h1>
+                      <br />
+                      <p>{this.props.challenges}</p>
+                      <br />
+                      <br />
+                    </>
+                  )}
 
-                  <h1>Looking Forward</h1>
-                  <br />
-                  <p>{this.props.lookingForward}</p>
+                  {this.props.takeaways && (
+                    <>
+                      <h1>Takeaways</h1>
+                      <br />
+                      <p>{this.props.takeaways}</p>
+                      <br />
+                      <br />
+                    </>
+                  )}
+
+                  {this.props.lookingForward && (
+                    <>
+                      <h1>Looking Forward</h1>
+                      <br />
+                      <p>{this.props.lookingForward}</p>
+                      <br />
+                      <br />
+                    </>
+                  )}
                 </FadeIn>
               </div>
             </Container>

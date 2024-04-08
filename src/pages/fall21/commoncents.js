@@ -50,11 +50,6 @@ export default function Home() {
         <strong>Week 8</strong>,
         ": Tasks backend +  frontend implementation, Integration testing",
       ]}
-      challenges={[
-        <ul>
-          <li>Implementing the video rewards.</li>
-        </ul>
-      ]}
       takeaways={[
         <ul>
           <li><strong>Andrew L</strong>: I found this experience extremely valuable and interesting. I really got to learn more about backend development while working on this project</li>
@@ -62,14 +57,6 @@ export default function Home() {
           <li><strong>Ethan Z</strong>: This was my first time using React/HTML/CSS in a context that wasn’t just a personal project. Learning to recreate a design from Figma with HTML and CSS was a significant learning experience for me, and I’m extremely grateful for this opportunity as a developer</li>
           <li><strong>Arush M</strong>: This was a great learning experience as I was not only able to learn how to implement React/JS/HTML/CSS but also learn how to use source control through GitHub. I am really excited to build upon this foundation and work on more projects in the future</li>
         </ul>,
-      ]}
-      lookingForward={[
-        "Looking forward, we could continue to expand our project by:",
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
       ]}
     ></ProjectLayout>
   )
