@@ -13,7 +13,7 @@ import gaiaAiImg from "../../static/img/sp22/gaia-ai.png"
 import interviewsLiveImg from "../../static/img/sp22/interviews-live.png"
 import pennPlaybookImg from "../../static/img/sp22/penn-playbook.png"
 import matchamakerImg from "../../static/img/sp22/matchamaker.png"
-import anxieteaImg from "../../static/img/sp22/anxietea.png"
+// import anxieteaImg from "../../static/img/sp22/anxietea.png"
 import penneventsImg from "../../static/img/sp22/penn-events.png"
 
 export default function Spring22() {
@@ -112,7 +112,7 @@ export default function Spring22() {
           />
         </Grid.Column>
 
-        <Grid.Column>
+        {/* <Grid.Column>
           <Project
             img={anxieteaImg}
             url="/spring22/anxie-tea"
@@ -125,7 +125,7 @@ export default function Spring22() {
             description="A wellness and journaling app that allows you to track anxiety and mood."
             people="Christiana Guan, Emily Guo, Na Kyung Lee, Sanya Shetty"
           />
-        </Grid.Column>
+        </Grid.Column> */}
 
         <Grid.Column>
           <Project

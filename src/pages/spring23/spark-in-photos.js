@@ -16,12 +16,6 @@ export default function Home() {
           height="500"
           src="https://drive.google.com/file/d/1eHqTPSOEMRTlBbQSY8b0Xdd498HsE-Ib/preview"
         ></iframe>,
-        <iframe
-          src="https://drive.google.com/file/d/1S4ou9JstnWFaof5l6vm7E9A1iPhL_2gT/preview"
-          width="100%"
-          height="500"
-          allow="autoplay"
-        ></iframe>,
       ]}
       projName={[<span style={{ color: "black" }}>Spark in Photos</span>]}
       img={header}
@@ -30,7 +24,8 @@ export default function Home() {
       people="Paul Loh, Christiana Guan, Jasper Zhu, Cindy Wei, Haley Kang, Dhatri Medarametla, Marcel Kida"
       background="In Spark, we’ve made a lot of good memories over the years, memories that we want to look back on and remember fondly. Photos have been a precious way of keeping these memories, but we wanted a way of looking back at everything Spark, all at once.
 
-      Spark-in-photos serves as our online photo album–a way of automatically collecting and showcasing all the memories within Spark (and our Slack) in one place."
+      Spark-in-photos serves as our online photo album–a way of automatically collecting and showcasing all the memories within Spark (and our Slack) in one place.
+      With our slackbot constantly scraping our social channels for pics, we’re able to upload them to our cloud storage and display them in a beautiful, infinite-scrolling gallery."
       timeline={[
         <ol>
           <li>Tail end of Fall 2022 - Figma Designs Created</li>

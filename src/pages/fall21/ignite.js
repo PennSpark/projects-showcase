@@ -9,36 +9,36 @@ export default function Home() {
     <ProjectLayout
       title="Ignite"
       img={igniteHeader}
-      demoUrl="https://spark-ignite.herokuapp.com/"
+      demoUrl=""
       sourcecodeUrl="https://github.com/PennSpark/fa21-blue-ignite"
       demoVisuals={[
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/sJ0YqRVvr80"></iframe>
       ]}
       people="Anna Baringer, James Ciardullo, Will Liang, Homer Wang, Rain Yan"
-      background={["We wanted to create a website where one could go to be inspired instantly. We envision that no matter the project, whether it is an art piece, a skit, a game project, an essay, or a website idea, our randomly generated pictures, quotes, and videos will serve as inspiration for your next great masterpiece.", 
-      <br/>, <br/>,
-      "We built this project entirely in React and connected to a variety of APIs: YouTube, Unsplash, and Quotable."]}
+      background={["We wanted to create a website where one could go to be inspired instantly. We envision that no matter the project, whether it is an art piece, a skit, a game project, an essay, or a website idea, our randomly generated pictures, quotes, and videos will serve as inspiration for your next great masterpiece.",
+        <br />, <br />,
+        "We built this project entirely in React and connected to a variety of APIs: YouTube, Unsplash, and Quotable."]}
       blurb="Dynamic website that serves to provide creative inspiration."
       timeline={[
         "Our project had the following timeline:",
         <br />,
         <br />,
-        
+
         <strong>Week 1</strong>,
         ": Set up react folder, index.html and base layouts",
-        <br/>,
+        <br />,
         <strong>Week 2</strong>,
         ": Search for sources of content for images, videos, and quotes. Get APIs working to get content. Complete frontend functionality",
-        <br/>,
+        <br />,
         <strong>Week 3</strong>,
         ": Connect backend content to the frontend",
       ]}
       challenges={[
-          <ul>
-              <li>API request limits</li>
-              <li>Integrating different media pieces into the frontend</li>
-              <li>Appropriately resizing content in React components (especially for photos)</li>
-          </ul>
+        <ul>
+          <li>API request limits</li>
+          <li>Integrating different media pieces into the frontend</li>
+          <li>Appropriately resizing content in React components (especially for photos)</li>
+        </ul>
       ]}
       takeaways={[
         <ul>
@@ -52,14 +52,14 @@ export default function Home() {
       lookingForward={[
         "Looking forward, we could continue to expand our project by:",
         <ul>
-            <li>Working on UI/branding more</li>
-            <li>Work on graphic design, polish logo</li>
-            <li>Allow for dynamic resizing and better fitting for photos</li>
-            <li>Add search bar functionality</li>
-            <li>Add more content variety</li>
-            <li>Add shopping cart features</li>
-            <li>Add users + the ability to save content to look at later</li>
-            <li>Enable endless scrolling</li>
+          <li>Working on UI/branding more</li>
+          <li>Work on graphic design, polish logo</li>
+          <li>Allow for dynamic resizing and better fitting for photos</li>
+          <li>Add search bar functionality</li>
+          <li>Add more content variety</li>
+          <li>Add shopping cart features</li>
+          <li>Add users + the ability to save content to look at later</li>
+          <li>Enable endless scrolling</li>
         </ul>
       ]}
     ></ProjectLayout>

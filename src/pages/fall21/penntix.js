@@ -10,38 +10,36 @@ export default function Home() {
       title="Penn Tix"
       img={penntixHeader}
       sourcecodeUrl="https://github.com/PennSpark/fa21-blue-penn-tix"
-      demoUrl="https://penntix.herokuapp.com/"
-      demoVisuals={[
-        <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>
-      ]}
+      demoUrl=""
+      demoVisuals=""
       people="Matthew Dong, Yuhan Liu, Claire Zhang, Ethan Zhao"
-      background={["PennTix is a web application that makes it easy to resell and buy tickets for Penn events and events/concerts in Philly. Currently, the marketplace for these transactions is decentralized, aka various GroupMe chats, which is problematic for both sellers and buyers. Our website makes it easy to buy tickets as they just select an event and see available tickets. To sell tickets, you can select/create an event and list your tickets. PennTix operates like Craigslist, by not actually conducting the transaction, just facilitating the connection between the buyer and the seller. This decreases our liability while still providing a service to the Penn community.", 
-      <br/>, <br/>, <strong>Technologies Used</strong>,
-      ": Python, Django, React, HTML, CSS"]}
+      background={["PennTix is a web application that makes it easy to resell and buy tickets for Penn events and events/concerts in Philly. Currently, the marketplace for these transactions is decentralized, aka various GroupMe chats, which is problematic for both sellers and buyers. Our website makes it easy to buy tickets as they just select an event and see available tickets. To sell tickets, you can select/create an event and list your tickets. PennTix operates like Craigslist, by not actually conducting the transaction, just facilitating the connection between the buyer and the seller. This decreases our liability while still providing a service to the Penn community.",
+        <br />, <br />, <strong>Technologies Used</strong>,
+        ": Python, Django, React, HTML, CSS"]}
       blurb="Penn's premiere ticket reselling platform."
       timeline={[
         "Our project had the following timeline:",
         <br />,
         <br />,
-        
+
         <strong>Week 1</strong>,
         ": Ideate features for the web app, make wireframes, create github repository, make ticket listing functionality",
-        <br/>,
+        <br />,
         <strong>Week 2</strong>,
         ": Finalize features list, set deadlines for individual tasks, create user profiles, create listings page",
-        <br/>,
+        <br />,
         <strong>Week 3</strong>,
         ": Search/sort events, design logos/animations",
-        <br/>,
+        <br />,
         <strong>Week 4</strong>,
         ": Test and polish site, final styling, incorporate visuals/animations",
       ]}
       challenges={[
-          <ul>
-              <li>Organizing tickets and events on website</li>
-              <li>Grouping tickets for same event and displaying lowest price</li>
-              <li>Creating a custom User class to have phone number field</li>
-          </ul>
+        <ul>
+          <li>Organizing tickets and events on website</li>
+          <li>Grouping tickets for same event and displaying lowest price</li>
+          <li>Creating a custom User class to have phone number field</li>
+        </ul>
       ]}
       takeaways={[
         <ul>
@@ -54,9 +52,9 @@ export default function Home() {
       lookingForward={[
         "Looking forward, we could continue to expand our project by:",
         <ul>
-            <li>Make site look prettier - add animations and logos </li>
-            <li>Adding calendar on main page to make events easier to see</li>
-            <li>Filter/search for events</li>
+          <li>Make site look prettier - add animations and logos </li>
+          <li>Adding calendar on main page to make events easier to see</li>
+          <li>Filter/search for events</li>
         </ul>
       ]}
     ></ProjectLayout>

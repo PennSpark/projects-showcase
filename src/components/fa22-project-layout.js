@@ -19,14 +19,21 @@ export default class ProjectLayout extends React.Component {
       demoUrlLabel = "Demo"
     }
 
+
     const sourcecodeUrl = this.props.sourcecodeUrl
     let sourcecodeLabel
     let sourcecodeDivider
+    if (demoUrl && sourcecodeUrl) {
+      sourcecodeDivider = " | "
+    } else {
+      sourcecodeDivider = ""
+    }
+
     if (sourcecodeUrl == "") {
       sourcecodeLabel = ""
-      sourcecodeDivider = ""
+
     } else {
-      sourcecodeDivider = " | "
+
       sourcecodeLabel = "Source Code"
     }
 
