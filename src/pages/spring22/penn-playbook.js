@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <ProjectLayout
       title="Penn Playbook"
-      projName={[<span style={{color: "white"}}>Penn Playbook</span>]}
+      projName={[<span style={{ color: "white" }}>Penn Playbook</span>]}
       img={pennPlaybookHeader}
-      demoUrl="http://www.pennplaybook.com"
+      demoUrl=""
       sourcecodeUrl="https://github.com/PennSpark/sp22-red-penn-playbook"
       demoVisuals=
       {[
-        <iframe width="100%" height="500" src="https://www.youtube.com/embed/2Km4kdqS57k"></iframe>
+        <iframe title="demo" width="100%" height="500" src="https://www.youtube.com/embed/2Km4kdqS57k"></iframe>
       ]}
       people="Marcel Kida, Andrew Jiang, Anna Xia, Ethan Zhao, Claire Zhang, Olivia Zha"
       background={[

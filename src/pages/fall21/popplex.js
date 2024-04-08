@@ -10,42 +10,40 @@ export default function Home() {
       title="Popplex"
       img={popplexHeader}
       sourcecodeUrl="https://github.com/PennSpark/fa21-blue-popplex"
-      demoUrl="https://popplex.herokuapp.com/onboarding/"
-      demoVisuals={[
-        <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>
-      ]}
+      demoUrl=""
+      demoVisuals=""
       people="Elaine Fan, Arushi Srivastava, Michelle Seiyon Lee, Paul Loh"
-      background={["Our project aims to facilitate communication between professors and students  in large class sizes by allowing for students to channel their confusion with the simple click of a button. On popplex, students inform the instructor that they are confused and how they want the instructor to address it (e.g. “repeat”, “rephrase”, “elaborate”, “provide an example”).  After class, students participate in a short survey that allows them to review what they learned. In turn, the lecturers receive both live and specific aggregate feedback that allows them to continually improve on their lecture.", 
-      <br/>, <br/>, <strong>Technologies Used</strong>,
-      ": Django, HTML, and CSS"]}
+      background={["Our project aims to facilitate communication between professors and students  in large class sizes by allowing for students to channel their confusion with the simple click of a button. On popplex, students inform the instructor that they are confused and how they want the instructor to address it (e.g. “repeat”, “rephrase”, “elaborate”, “provide an example”).  After class, students participate in a short survey that allows them to review what they learned. In turn, the lecturers receive both live and specific aggregate feedback that allows them to continually improve on their lecture.",
+        <br />, <br />, <strong>Technologies Used</strong>,
+        ": Django, HTML, and CSS"]}
       blurb="Let’s pop your class perplexion!"
       timeline={[
         "Our project had the following timeline:",
         <br />,
         <br />,
-        
+
         <strong>Week 1</strong>,
         ": Ideation and functionality, user flows and basic designs, base code",
-        <br/>,
+        <br />,
         <strong>Week 2</strong>,
         ": Icons, logos and design palette",
-        <br/>,
+        <br />,
         <strong>Week 3</strong>,
         ": Hi - Fi designs, Login functionality",
-        <br/>,
+        <br />,
         <strong>Week 4</strong>,
         ": Front-end Completed, Confusion backend completed",
-        <br/>,
+        <br />,
         <strong>Week 5</strong>,
         ": Testing and implementation, Teacher/Student models revised",
       ]}
       challenges={[
-          <ul>
-              <li>Evaluating which tools to use for the project</li>
-              <li>Modifying the default user class and login to accommodate for different student and teacher profiles</li>
-              <li>Modifying the stylized bars that represent levels of confusion</li>
-              <li>Implementing animations</li>
-          </ul>
+        <ul>
+          <li>Evaluating which tools to use for the project</li>
+          <li>Modifying the default user class and login to accommodate for different student and teacher profiles</li>
+          <li>Modifying the stylized bars that represent levels of confusion</li>
+          <li>Implementing animations</li>
+        </ul>
       ]}
       takeaways={[
         <ul>
@@ -58,13 +56,13 @@ export default function Home() {
       lookingForward={[
         "Looking forward, we could continue to expand our project by:",
         <ul>
-            <li>Implement the confuso-meter page to overlay on top of lecture slides for ease of display. </li>
-            <li>Update the confuso-meter in real-time using event listeners.</li>
-            <li>We need to make the website responsive to mobile screen sizes so that students can not only use their laptops but also their phones to communicate their confusion.</li>
-            <li>Make it possible for students to put time stamps during class so that they get a report on what they need to review at the end of class. </li>
-            <li>Improve the design of a post-lecture survey that will not only help them to identify what they learned and did not understand, but also inform the lecturers on how to better respond to the student’s needs.</li>
-            <li>Complete backend functionality of adding different classes, class review page, post-lecture survey responses, and analytics.</li>
-            <li>Expand on information and analytics provided on the teacher side.</li>
+          <li>Implement the confuso-meter page to overlay on top of lecture slides for ease of display. </li>
+          <li>Update the confuso-meter in real-time using event listeners.</li>
+          <li>We need to make the website responsive to mobile screen sizes so that students can not only use their laptops but also their phones to communicate their confusion.</li>
+          <li>Make it possible for students to put time stamps during class so that they get a report on what they need to review at the end of class. </li>
+          <li>Improve the design of a post-lecture survey that will not only help them to identify what they learned and did not understand, but also inform the lecturers on how to better respond to the student’s needs.</li>
+          <li>Complete backend functionality of adding different classes, class review page, post-lecture survey responses, and analytics.</li>
+          <li>Expand on information and analytics provided on the teacher side.</li>
         </ul>
       ]}
     ></ProjectLayout>
