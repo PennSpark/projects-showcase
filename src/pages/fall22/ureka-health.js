@@ -10,7 +10,7 @@ export default function Home() {
       title="Ureka Health"
       projName={[<span style={{ color: "black" }}>Ureka Health</span>]}
       img={UrekaHealthHeader}
-      demoUrl="https://ureka2.vercel.app/"
+      demoUrl="https://www.urekahealth.com/"
       sourcecodeUrl=""
       demoVisuals={[
         <iframe src="https://drive.google.com/file/d/1mxLN8rlK7gbV1g9YznoRafUpZm-W2wLB/preview" width="100%" height="500vw" />,

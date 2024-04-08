@@ -15,8 +15,10 @@ export default class ProjectLayout extends React.Component {
     let demoUrlLabel
     if (demoUrl == "") {
       demoUrlLabel = ""
+      sourcecodeDivider = ""
     } else {
       demoUrlLabel = "Demo"
+      sourcecodeDivider = " | "
     }
 
     const sourcecodeUrl = this.props.sourcecodeUrl
@@ -24,9 +26,9 @@ export default class ProjectLayout extends React.Component {
     let sourcecodeDivider
     if (sourcecodeUrl == "") {
       sourcecodeLabel = ""
-      sourcecodeDivider = ""
+
     } else {
-      sourcecodeDivider = " | "
+
       sourcecodeLabel = "Source Code"
     }
 

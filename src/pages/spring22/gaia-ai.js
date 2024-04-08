@@ -10,10 +10,10 @@ export default function Home() {
       title="Gaia AI"
       projName="Gaia AI"
       img={gaiaAiHeader}
-      demoUrl="https://sp22redgaiamaster.gatsbyjs.io/"
+      demoUrl="https://www.gaia-ai.eco/"
       bgColor="#F9FFF4"
-      // sourcecodeUrl=""
-      demoVisuals= {[
+      sourcecodeUrl=""
+      demoVisuals={[
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/fSgz-OdhoNc"></iframe>
       ]}
       people="Chelsea Cheng, Yuhan Liu, Sumanth Kadiyala, Paul Loh, Arush Mehrotra, Eric Dai"

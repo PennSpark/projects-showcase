@@ -10,7 +10,7 @@ export default function Home() {
       title="MatchaMaker"
       projName="MatchaMaker"
       img={matchamakerHeader}
-      // demoUrl=""
+      demoUrl=""
       sourcecodeUrl="https://github.com/PennSpark/sp22-blue-matchamaker"
       demoVisuals={[
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/XZyo3OfG80U"></iframe>
@@ -29,43 +29,43 @@ export default function Home() {
         <br />,
         <br />,
 
-        <strong>Week 1</strong>, <br/>,
+        <strong>Week 1</strong>, <br />,
         <ul>
-        <li>Brainstormed + finalized project idea - wanted to focus on coffee chat pairings, going off of the Google Form that Spark normally uses to match members. Wanted to have a website that could be used by members in the future.</li>
-        <li>Created repo in Spark Github</li>
-        <li>Created Figma file and wireframes</li>
-        <li>Set weekly project meeting time on Sundays before general meetings</li>
+          <li>Brainstormed + finalized project idea - wanted to focus on coffee chat pairings, going off of the Google Form that Spark normally uses to match members. Wanted to have a website that could be used by members in the future.</li>
+          <li>Created repo in Spark Github</li>
+          <li>Created Figma file and wireframes</li>
+          <li>Set weekly project meeting time on Sundays before general meetings</li>
         </ul>,
-        <br/>,
-        <strong>Week 2</strong>, <br/>,
+        <br />,
+        <strong>Week 2</strong>, <br />,
         <ul>
-        <li>Created first animations and drawings to put on website</li>
-        <li>Finalized general theme of website</li>
-        <li>Began creating frontend with React based on wireframes</li>
-        <li>Began developing backend for authentication, user login, and signup</li></ul>,
-        <br/>,
+          <li>Created first animations and drawings to put on website</li>
+          <li>Finalized general theme of website</li>
+          <li>Began creating frontend with React based on wireframes</li>
+          <li>Began developing backend for authentication, user login, and signup</li></ul>,
+        <br />,
         <strong>Week 3</strong>,
         <ul>
-        <li>Added more animations to website</li>
-        <li>Designed user profile page</li>
-        <li>Created home page, gallery, and survey questions</li>
-        <li>Found Edmund’s Blossom algorithm and integrated into website</li>
-        <li>Fleshed out backend for user, setting user profile, and matching with algorithm</li>
-        <li>Integrated frontend and backend</li></ul>,
-        <br/>,
+          <li>Added more animations to website</li>
+          <li>Designed user profile page</li>
+          <li>Created home page, gallery, and survey questions</li>
+          <li>Found Edmund’s Blossom algorithm and integrated into website</li>
+          <li>Fleshed out backend for user, setting user profile, and matching with algorithm</li>
+          <li>Integrated frontend and backend</li></ul>,
+        <br />,
         <strong>Week 4</strong>,
         <ul>
-        <li>Designed admin pages for matching</li>
-        <li>Created user profile display and admin pages on frontend</li>
-        <li>Cleaned up frontend design</li>
-        <li>Worked on admin backend</li></ul>
+          <li>Designed admin pages for matching</li>
+          <li>Created user profile display and admin pages on frontend</li>
+          <li>Cleaned up frontend design</li>
+          <li>Worked on admin backend</li></ul>
       ]}
       challenges={[
         <ul>
           <li>
             :-)
           </li>
-          
+
         </ul>,
       ]}
       takeaways={[
@@ -79,7 +79,7 @@ export default function Home() {
         "Looking forward, we could continue to expand our project by:",
         <ul>
           <li>
-          We want to have email/text/Slack integration so that users can get a notification about who they’ve been matched with. Also, being able to have multiple customizable surveys with different kinds of questions (non multiple choice).
+            We want to have email/text/Slack integration so that users can get a notification about who they’ve been matched with. Also, being able to have multiple customizable surveys with different kinds of questions (non multiple choice).
           </li>
         </ul>,
       ]}
