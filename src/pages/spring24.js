@@ -12,7 +12,7 @@ import beraterImg from "../../static/img/sp23/berater.png"
 import pennmarketImg from "../../static/img/sp24/penn-market.png"
 import pistachioImg from "../../static/img/sp24/pistachio.png"
 import quickflicksImg from "../../static/img/sp24/quick-flicks.png"
-import squishmodelImg from "../../static/img/sp24/squishmodel.png"
+import squishmodelImg from "../../static/img/sp24/squishmodel.jpg"
 
 const Spring24 = () => {
   return (
