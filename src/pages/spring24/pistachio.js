@@ -1,5 +1,5 @@
 import React from "react"
-import ProjectLayout from "../../components/sp23-project-layout"
+import ProjectLayout from "../../components/sp24-project-layout"
 import "semantic-ui-css/semantic.min.css"
 
 import header from "../../../static/img/sp23/header.png"
@@ -21,7 +21,7 @@ export default function Home() {
           Github here!
         </a>,
       ]}
-      demoUrl="https://github.com/PennSpark/sp24-vote-on-life
+      sourcecodeUrl="https://github.com/PennSpark/sp24-vote-on-life
 "
       isCodingProject="True"
       people="Eric Lee, August Fu, Grace Thanglerdsumpan, Angie Cao, Lori Brown, Charles Jin, Namita Sajai

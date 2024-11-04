@@ -40,8 +40,8 @@ const Fall23 = () => {
           </FadeIn>
         </div>
       </div>
-      <h1 style={{ fontSize: "3rem" }}>Coming soon!</h1>
       <div style={{ textAlign: "center", color: "#777777" }}>
+      <h1 style={{ fontSize: "3rem" }}>Coming soon!</h1>
         <br />
         <p style={{ fontSize: "1rem" }}>
           <em>Built with &#9829; by Meiling Mathur &amp; Spark</em>

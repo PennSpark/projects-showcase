@@ -1,5 +1,5 @@
 import React from "react"
-import ProjectLayout from "../../components/sp23-project-layout"
+import ProjectLayout from "../../components/sp24-project-layout"
 import "semantic-ui-css/semantic.min.css"
 
 import header from "../../../static/img/sp23/header.png"
