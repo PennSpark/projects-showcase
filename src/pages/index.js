@@ -14,6 +14,8 @@ import sp22Img from "../../static/img/sp22-splash.png"
 import fa21Img from "../../static/img/fa21-splash.png"
 import fa22Img from "../../static/img/fa22-splash.png"
 import sp21Img from "../../static/img/sp21-splash.png"
+import fa23Img from "../../static/img/fa23-splash.png"
+import sp24Img from "../../static/img/sp24-splash.png"
 
 export default function Home() {
   return (
@@ -73,6 +75,36 @@ export default function Home() {
         columns={2}
         style={{ margin: "auto", marginTop: "30px", paddingBottom: "60px" }}
       >
+        <Grid.Column>
+          <FadeIn>
+            <a href="spring24">
+              <Card style={{ width: "100%" }}>
+                <Image src={sp24Img} wrapped ui={false} />
+                <Card.Content style={{ textAlign: "center" }}>
+                  <Card.Header>
+                    <h2>Spring 2024 Projects</h2>
+                  </Card.Header>
+                </Card.Content>
+              </Card>
+            </a>
+            <br />
+          </FadeIn>
+        </Grid.Column>
+        <Grid.Column>
+          <FadeIn>
+            <a href="fall23">
+              <Card style={{ width: "100%" }}>
+                <Image src={fa23Img} wrapped ui={false} />
+                <Card.Content style={{ textAlign: "center" }}>
+                  <Card.Header>
+                    <h2>Fall 2023 Projects</h2>
+                  </Card.Header>
+                </Card.Content>
+              </Card>
+            </a>
+            <br />
+          </FadeIn>
+        </Grid.Column>
         <Grid.Column>
           <FadeIn>
             <a href="spring23">
