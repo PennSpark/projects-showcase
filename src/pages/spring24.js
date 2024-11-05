@@ -40,19 +40,7 @@ const Spring24 = () => {
       </div>
 
       <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>
-        <Grid.Column>
-          <Project
-            img={pennmarketImg}
-            url="/spring24/pennmarket"
-            title="Penn Market"
-            isCodingProject="True"
-            isDesignProject="True"
-            isClientProject="False"
-            isCreativeProject="False"
-            description="An online marketplace for all your campus needs – from Penn students, for Penn students."
-            people="Katherine Yue, David Lee, Nond Phokasub"
-          />
-        </Grid.Column>
+        
 
         <Grid.Column>
           <Project
@@ -65,6 +53,20 @@ const Spring24 = () => {
             isCreativeProject="False"
             description="Pistachio is a mobile app you can foster greater interaction between students at campuses by enabling anyone to post any niche polls about the school and respond to other students polls in a fun, competitive structure."
             people="Eric Lee, August Fu, Grace Thanglerdsumpan, Angie Cao, Lori Brown, Charles Jin, Namita Sajai"
+          />
+        </Grid.Column>
+
+        <Grid.Column>
+          <Project
+            img={squishmodelImg}
+            url="/spring24/squishmodel"
+            title="SquishModel: Images to 3D"
+            isCodingProject="True"
+            isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
+            description="Mobile application to turn pictures of your stuffed animals into 3D models for memory preservation and virtual play!"
+            people="James Baker, Joyce Chen, Meiling Mathur, Yue Zhao, Emily Kang, Sumanth Kadiyala, Johnny Jeong"
           />
         </Grid.Column>
 
@@ -83,17 +85,19 @@ const Spring24 = () => {
           />
         </Grid.Column>
 
+        
+
         <Grid.Column>
           <Project
-            img={squishmodelImg}
-            url="/spring24/squishmodel"
-            title="SquishModel: Images to 3D"
+            img={pennmarketImg}
+            url="/spring24/pennmarket"
+            title="Penn Market"
             isCodingProject="True"
             isDesignProject="True"
             isClientProject="False"
-            isCreativeProject="True"
-            description="Mobile application to turn pictures of your stuffed animals into 3D models for memory preservation and virtual play!"
-            people="James Baker, Joyce Chen, Meiling Mathur, Yue Zhao, Emily Kang, Sumanth Kadiyala, Johnny Jeong"
+            isCreativeProject="False"
+            description="An online marketplace for all your campus needs – from Penn students, for Penn students."
+            people="Katherine Yue, David Lee, Nond Phokasub"
           />
         </Grid.Column>
       </Grid>
