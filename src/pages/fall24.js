@@ -8,12 +8,11 @@ import Project from "../components/project-cover"
 import { Grid, Label } from "semantic-ui-react"
 
 import headerImg from "../../static/img/sp23/header.png"
-import boardoflifeImg from "../../static/img/fa23/boardoflife.png"
-import sparkmakesthingsImg from "../../static/img/fa23/sparkmakesthings.png"
-import sparkoflifeImg from "../../static/img/fa23/sparkoflife.png"
-import sparkifyImg from "../../static/img/fa23/sparkify.png"
+import pennpinsImg from "../../static/img/fa24/pennpins.png"
+import pennplaceImg from "../../static/img/fa24/pennplace.png"
+import strideImg from "../../static/img/fa24/stride.png"
 
-const Fall23 = () => {
+const Fall24 = () => {
   return (
     <Layout>
       <div
@@ -27,7 +26,7 @@ const Fall23 = () => {
         <div style={{ padding: "100px", textAlign: "center" }}>
           <FadeIn>
             <h3 style={{ fontSize: "1.6rem" }}>Penn Spark</h3>
-            <h1 style={{ fontSize: "3rem" }}>Fall 2023 Showcase</h1>
+            <h1 style={{ fontSize: "3rem" }}>Fall 2024 Showcase</h1>
             <br />
             <p id="sp22-back-button">
               <a href="/">
@@ -43,59 +42,44 @@ const Fall23 = () => {
 
         <Grid.Column>
           <Project
-            img={boardoflifeImg}
-            url="/fall23/boardoflife"
-            title="Board of Life"
-            isCodingProject="True"
-            isDesignProject="True"
-            isClientProject="True"
-            isCreativeProject="False"
-            description="Meeting management platform equipped with AI coaching."
-            people="Tobias Nguyen, Jason Saito, April Zhang, Jasper Zhu, Anna Xia, August Fu, Johnny Jeong, Sanya Shetty, Angie Cao, Sydney Simon
-"
-          />
-        </Grid.Column>
-
-        <Grid.Column>
-          <Project
-            img={sparkmakesthingsImg}
-            url="/fall23/sparkmakesthings"
-            title="Spark Makes Things"
+            img={pennplaceImg}
+            url="/fall24/pennplace"
+            title="Penn Place"
             isCodingProject="True"
             isDesignProject="True"
             isClientProject="False"
             isCreativeProject="True"
-            description="Where our creativity meets the physical world."
-            people="Kashyap Chaturvedula, Emily Kang, Sey Nhyira Agbotey, Grace Thanglerdsumpan"
-          />
-        </Grid.Column>
-
-        <Grid.Column>
-          <Project
-            img={sparkoflifeImg}
-            url="/fall23/sparkoflife"
-            title="The Spark of Life"
-            isCodingProject="True"
-            isDesignProject="True"
-            isClientProject="False"
-            isCreativeProject="False"
-            description="An Exhibit on the Stages of Life"
-            people="Andrew Chang, Marcel Kida, Ryan De Lopez, Nick Cirillo, Cindy Wei, Joyce Yoon, Joyce Chen, Grace Thanglerdsumpan, Claire Zhang, Isabelle Gu
+            description="Penn Place is a collaborative 3D digital art experiment, inviting users to build art inside a shared voxel canvas in real-time."
+            people="Shaurya Sarma, Joyce Chen, Luka Koll, Term Taepaisitphongse, Lori Brown, Nond Phokasub, Yue Zhao
 "
           />
         </Grid.Column>
 
         <Grid.Column>
           <Project
-            img={sparkifyImg}
-            url="/fall23/sparkify"
-            title="Sparkify"
+            img={strideImg}
+            url="/fall24/stride"
+            title="Stride"
+            isCodingProject="True"
+            isDesignProject="True"
+            isClientProject="False"
+            isCreativeProject="True"
+            description="Get rewarded for traveling sustainably around Philadelphia."
+            people="Meiling Mathur, Gabriel Thiessen, David Lee, Andrei Piterbarg, Emmi Wu, Fiona Herzog, Sarah Chan"
+          />
+        </Grid.Column>
+
+        <Grid.Column>
+          <Project
+            img={pennpinsImg}
+            url="/fall24/pennpins"
+            title="Penn Pins"
             isCodingProject="True"
             isDesignProject="True"
             isClientProject="False"
             isCreativeProject="False"
-            description="Music Moodboard Generator."
-            people="Nwai Alfa, Jasmine Wang, Sonia Tam, Paul Loh, Matthew Cho, Luke Tong
+            description="A social exploration app designed to help students discover campus and connect with each other in real life."
+            people="Estelle Kim, Michael Li, Angie Cao, Eric Lee, Katherine Yue, Mary Liu, Ruth Zhao
 "
           />
         </Grid.Column>
