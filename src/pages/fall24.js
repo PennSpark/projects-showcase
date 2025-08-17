@@ -15,29 +15,8 @@ import strideImg from "../../static/img/fa24/stride.png"
 const Fall24 = () => {
   return (
     <Layout>
-      <div
-        style={{
-          width: "100%",
-          backgroundImage: `url(${headerImg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div style={{ padding: "100px", textAlign: "center" }}>
-          <FadeIn>
-            <h3 style={{ fontSize: "1.6rem" }}>Penn Spark</h3>
-            <h1 style={{ fontSize: "3rem" }}>Fall 2024 Showcase</h1>
-            <br />
-            <p id="sp22-back-button">
-              <a href="/">
-                <strong>&larr; Back Home</strong>
-              </a>
-            </p>
-          </FadeIn>
-        </div>
-      </div>
 
-      <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>
+      <Grid container columns={3} style={{ margin: "auto"}}>
         
 
         <Grid.Column>
@@ -96,4 +75,4 @@ const Fall24 = () => {
   )
 }
 
-export default Spring24
+export default Fall24

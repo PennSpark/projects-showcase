@@ -9,25 +9,37 @@ import { Card, Icon, Image } from "semantic-ui-react"
 
 import headerImg from "../../static/img/header.png"
 import logoImg from "../../static/img/logo.png"
-import sp23Img from "../../static/img/sp23-splash.png"
-import sp22Img from "../../static/img/sp22-splash.png"
-import fa21Img from "../../static/img/fa21-splash.png"
-import fa22Img from "../../static/img/fa22-splash.png"
-import sp21Img from "../../static/img/sp21-splash.png"
-import fa23Img from "../../static/img/fa23-splash.png"
-import sp24Img from "../../static/img/sp24-splash.png"
-import fa24Img from "../../static/img/fa24-splash.png"
+import Fall21 from "./fall21"
+import Fall22 from "./fall22"
+import Fall23 from "./fall23"
+import Fall24 from "./fall24"
+import Spring21 from "./spring21"
+import Spring22 from "./spring22"
+import Spring23 from "./spring23"
+import Spring24 from "./spring24"
+
+const seasons = [
+  { id: "f24", name: "Fall 2024", component: Fall24 },
+  { id: "s24", name: "Spring 2024", component: Spring24 },
+  { id: "f23", name: "Fall 2023", component: Fall23 },
+  { id: "s23", name: "Spring 2023", component: Spring23 },
+  { id: "f22", name: "Fall 2022", component : Fall22 },
+  { id: "s22", name: "Spring 2022", component: Spring22 },
+  { id: "f21", name: "Fall 2021", component: Fall21 },
+  { id: "s21", name: "Spring 2021", component: Spring21 },
+];
 
 export default function Home() {
   return (
     <Layout>
       <div
         style={{
+          position: "relative",
           width: "100%",
           paddingTop: "136px",
           paddingBottom: "136px",
           textAlign: "center",
-          backgroundImage: `url(${headerImg})`,
+              backgroundImage: `linear-gradient(to bottom, rgba(255,255,255,0) 50%, white 100%), url(${headerImg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -70,133 +82,18 @@ export default function Home() {
           </div>
         </FadeIn>
       </div>
+      {seasons.map(({ name, component: SeasonComp }) => {
+        if (!SeasonComp) return null;
+        const id = name.toLowerCase().replace(/\s+/g, "-");
+        return (
+          <section key={name} id={id} style={{ padding: "24px 0", marginTop: "36px" }}>
+            <h2 style={{ textAlign: "center", marginBottom: 16 }}>{name}</h2>
+            <hr/>
+            <SeasonComp />
+          </section>
+        );
+      })}
 
-      <Grid
-        container
-        columns={2}
-        style={{ margin: "auto", marginTop: "30px", paddingBottom: "60px" }}
-      >
-        <Grid.Column>
-          <FadeIn>
-            <a href="fall24">
-              <Card style={{ width: "100%" }}>
-                <Image src={fa24Img} wrapped ui={false} />
-                <Card.Content style={{ textAlign: "center" }}>
-                  <Card.Header>
-                    <h2>Fall 2024 Projects</h2>
-                  </Card.Header>
-                </Card.Content>
-              </Card>
-            </a>
-            <br />
-          </FadeIn>
-        </Grid.Column>
-        <Grid.Column>
-          <FadeIn>
-            <a href="spring24">
-              <Card style={{ width: "100%" }}>
-                <Image src={sp24Img} wrapped ui={false} />
-                <Card.Content style={{ textAlign: "center" }}>
-                  <Card.Header>
-                    <h2>Spring 2024 Projects</h2>
-                  </Card.Header>
-                </Card.Content>
-              </Card>
-            </a>
-            <br />
-          </FadeIn>
-        </Grid.Column>
-        <Grid.Column>
-          <FadeIn>
-            <a href="fall23">
-              <Card style={{ width: "100%" }}>
-                <Image src={fa23Img} wrapped ui={false} />
-                <Card.Content style={{ textAlign: "center" }}>
-                  <Card.Header>
-                    <h2>Fall 2023 Projects</h2>
-                  </Card.Header>
-                </Card.Content>
-              </Card>
-            </a>
-            <br />
-          </FadeIn>
-        </Grid.Column>
-        <Grid.Column>
-          <FadeIn>
-            <a href="spring23">
-              <Card style={{ width: "100%" }}>
-                <Image src={sp23Img} wrapped ui={false} />
-                <Card.Content style={{ textAlign: "center" }}>
-                  <Card.Header>
-                    <h2>Spring 2023 Projects</h2>
-                  </Card.Header>
-                </Card.Content>
-              </Card>
-            </a>
-            <br />
-          </FadeIn>
-        </Grid.Column>
-        <Grid.Column>
-          <FadeIn>
-            <a href="fall22">
-              <Card style={{ width: "100%" }}>
-                <Image src={fa22Img} wrapped ui={false} />
-                <Card.Content style={{ textAlign: "center" }}>
-                  <Card.Header>
-                    <h2>Fall 2022 Projects</h2>
-                  </Card.Header>
-                </Card.Content>
-              </Card>
-            </a>
-            <br />
-          </FadeIn>
-        </Grid.Column>
-        <Grid.Column>
-          <FadeIn>
-            <a href="spring22">
-              <Card style={{ width: "100%" }}>
-                <Image src={sp22Img} wrapped ui={false} />
-                <Card.Content style={{ textAlign: "center" }}>
-                  <Card.Header>
-                    <h2>Spring 2022 Projects</h2>
-                  </Card.Header>
-                </Card.Content>
-              </Card>
-            </a>
-            <br />
-          </FadeIn>
-        </Grid.Column>
-        <Grid.Column>
-          <FadeIn>
-            <a href="fall21">
-              <Card style={{ width: "100%" }}>
-                <Image src={fa21Img} wrapped ui={false} />
-                <Card.Content style={{ textAlign: "center" }}>
-                  <Card.Header>
-                    <h2>Fall 2021 Projects</h2>
-                  </Card.Header>
-                </Card.Content>
-              </Card>
-            </a>
-            <br />
-          </FadeIn>
-        </Grid.Column>
-        <Grid.Column>
-          <FadeIn>
-            <a href="spring21">
-              <Card style={{ width: "100%" }}>
-                <Image src={sp21Img} wrapped ui={false} />
-                <Card.Content style={{ textAlign: "center" }}>
-                  <Card.Header>
-                    <h2>Spring 2021 Projects</h2>
-                  </Card.Header>
-                </Card.Content>
-              </Card>
-            </a>
-            <br />
-          </FadeIn>
-        </Grid.Column>
-      </Grid>
     </Layout>
   )
 }

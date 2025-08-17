@@ -81,26 +81,15 @@ export default class ProjectLayout extends React.Component {
                   paddingTop: "30px",
                 }}
               >
-                <div style={{ float: "left" }}>
+              <div style={{ float: "left" }}>
                   <p>
                     <em>
-                      <a href="/fall24"><div className="sp22-back-btn">
-                        &larr; Back to Fall 24 Projects
+                      <a href="/"><div className="sp22-back-btn">
+                        &larr; Back to Projects
                       </div></a>
                     </em>
                   </p>
                 </div>
-                <div style={{ float: "right", marginLeft: "20px" }}>
-                  <p>
-                    <a href="/">
-                      <div className="sp22-home-btn">
-                        Home
-                      </div>
-                    </a>
-                  </p>
-                </div>
-
-
               </div>
               <div
                 style={{

@@ -45,16 +45,13 @@ export default class ProjectLayout extends React.Component {
                   paddingTop: "30px",
                 }}
               >
-                <div style={{ float: "left" }}>
+                  <div style={{ float: "left" }}>
                   <p>
                     <em>
-                      <a href="/spring21">&larr; Back to Spring 21 Projects</a>
+                      <a href="/"><div className="sp22-back-btn">
+                        &larr; Back to Projects
+                      </div></a>
                     </em>
-                  </p>
-                </div>
-                <div style={{ float: "right" }}>
-                  <p>
-                    <a href="/">Home</a>
                   </p>
                 </div>
               </div>

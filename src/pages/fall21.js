@@ -19,24 +19,7 @@ import commoncentsImg from "../../static/img/fa21/common-cents.png"
 export default function Fall21() {
   return (
     <Layout>
-      <div
-        style={{
-          width: "100%",
-          backgroundImage: `url(${headerImg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div style={{padding: "100px", textAlign: "center",}}>
-        <FadeIn>
-          <h3 style={{ fontSize: "1.6rem" }}>Penn Spark</h3>
-          <h1 style={{ fontSize: "3rem" }}>Fall 2021 Showcase</h1><br/>
-          <p id="fa21-back-button"><a href="/"><strong>&larr; Back Home</strong></a>&nbsp;|&nbsp;<a href="https://docs.google.com/presentation/d/1B0M2ThQLYZZRnzj2Z4Ir9VI_SWkcCNry9RWcjLE0ShY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Demo Slides</a>&nbsp;|&nbsp;<a href="https://www.facebook.com/events/229535855929777" target="_blank" rel="noopener noreferrer">Facebook Event</a></p>
-        </FadeIn>
-        </div>
-      </div>
-
-      <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>
+      <Grid container columns={3} style={{ margin: "auto"}}>
       <Grid.Column>
           <Project
             img={clarifiImg}
