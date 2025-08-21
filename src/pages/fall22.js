@@ -15,24 +15,7 @@ import urekaImg from "../../static/img/fa22/ureka.png"
 export default function Fall22() {
   return (
     <Layout>
-      <div
-        style={{
-          width: "100%",
-          backgroundImage: `url(${headerImg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div style={{ padding: "100px", textAlign: "center", }}>
-          <FadeIn>
-            <h3 style={{ fontSize: "1.6rem" }}>Penn Spark</h3>
-            <h1 style={{ fontSize: "3rem" }}>Fall 2022 Showcase</h1><br />
-            <p id="fa21-back-button"><a href="/"><strong>&larr; Back Home</strong></a>&nbsp;|&nbsp;<a href="https://docs.google.com/presentation/d/1SisZm5E7g37BqNdfcheM982qhqMBirU9q0JPlBpqNG4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Demo Slides</a>&nbsp;|&nbsp;<a href="https://www.facebook.com/events/650108536760111" target="_blank" rel="noopener noreferrer">Facebook Event</a></p>
-          </FadeIn>
-        </div>
-      </div>
-
-      <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>
+      <Grid container columns={3} style={{ margin: "auto"}}>
         <Grid.Column>
           <Project
             img={respondImg}

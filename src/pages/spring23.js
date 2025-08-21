@@ -19,39 +19,7 @@ import sparkPhotosImg from "../../static/img/sp23/spark-in-photos.png"
 const Spring23 = () => {
   return (
     <Layout>
-      <div
-        style={{
-          width: "100%",
-          backgroundImage: `url(${headerImg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div style={{ padding: "100px", textAlign: "center" }}>
-          <FadeIn>
-            <h3 style={{ fontSize: "1.6rem" }}>Penn Spark</h3>
-            <h1 style={{ fontSize: "3rem" }}>Spring 2023 Showcase</h1>
-            <br />
-            <p id="sp22-back-button">
-              <a href="/">
-                <strong>&larr; Back Home</strong>
-              </a>
-              &nbsp;
-              {/* |&nbsp;<a href="https://docs.google.com/presentation/d/1B0M2ThQLYZZRnzj2Z4Ir9VI_SWkcCNry9RWcjLE0ShY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Demo Slides</a>&nbsp; */}
-              |&nbsp;
-              <a
-                href="https://www.facebook.com/events/888459988926734?active_tab=about"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook Event
-              </a>
-            </p>
-          </FadeIn>
-        </div>
-      </div>
-
-      <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>
+      <Grid container columns={3} style={{ margin: "auto"}}>
         <Grid.Column>
           <Project
             img={proceduralCityImg}

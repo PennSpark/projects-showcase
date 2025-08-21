@@ -21,24 +21,7 @@ import penntitionsImg from "../../static/img/sp21/penntitions.png"
 export default function Spring21() {
   return (
     <Layout>
-      <div
-        style={{
-          width: "100%",
-          padding: "100px",
-          textAlign: "center",
-          backgroundImage: `url(${headerImg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <FadeIn>
-          <h3 style={{ fontSize: "1.6rem" }}>Penn Creative Labs</h3>
-          <h1 style={{ fontSize: "3rem" }}>Spring 2021 Showcase</h1><br/>
-          <p id="sp21-back-button"><a href="/"><strong>&larr; Back Home</strong></a>&nbsp;|&nbsp;<a href="https://docs.google.com/presentation/d/1ji-QVWWrQ-7MCRW5tlKmMk4ZGlRVzrSLn6AsKfkuvFk/" target="_blank">Demo Slides</a>&nbsp;|&nbsp;<a href="https://www.facebook.com/events/124758169604630/" target="_blank">Facebook Event</a></p>
-        </FadeIn>
-      </div>
-
-      <Grid container columns={3} style={{ margin: "auto", marginTop: "30px" }}>
+      <Grid container columns={3} style={{ margin: "auto"}}>
         <Grid.Column>
           <Project
             img={pogaImg}
